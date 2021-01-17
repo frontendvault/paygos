@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
+    .category-shop {
+        .item-container {
+            .item {
+                max-width: 182px;
+            }
+        }
+    }
+
+    .slick-slider {
+        .slick-arrow {
+            top: 52px;
+        }
+    }  .market-filter {
+    .item-container {
+      .item {
+        max-width: 121px;
+      }
+    }
+  }  .market-filter {
+    .item-container {
+      .item {
+        max-width: 170px;
+      }
+    }
+  }
+}

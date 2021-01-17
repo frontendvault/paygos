@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300&display=swap');
+
+@import "variables";
+@import "navbar";
+@import "orderProcess";
+@import "paymentForm";
+@import "paygosJoinNow";
+@import "home";
+@import "about";
+@import "cart";
+@import "tabletMedia";
+@import "tabletMediaLandscape";
+@import "filterMenu";
+@import "mobileMedia";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.btn-green {
+    background-color: $green;
+    border-radius: 0;
+}
+
+.bg-green {
+    background: $green
+}
+
+.breadcrumb {
+    padding: 0;
+
+    .breadcrumb-item {
+        font-weight: 500;
+
+        a {
+            color: $green;
+        }
+    }
+}
+
+.left-right-border {
+    border-left: 1px solid $mediumGrey;
+    border-right: 1px solid $mediumGrey;
+}
+

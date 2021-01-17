@@ -1,0 +1,388 @@
+.top-bar {
+    background: $black;
+    color: $white;
+
+    h4 {
+        font-size: 20px;
+        margin-bottom: 0;
+
+        a {
+            color: $yellow;
+        }
+
+        span {
+            color: $yellow;
+        }
+    }
+
+    a {
+        color: $white;
+    }
+
+    select.form-control {
+        option {
+            color: $black;
+        }
+    }
+}
+
+
+.paygos-join {
+    width: 600px;
+
+    .img-fluid {
+        width: 80%;
+        margin: auto;
+    }
+
+    .join-now {
+        position: relative;
+
+        h3 {
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 30px;
+        }
+
+        .form-control {
+            border: 1px solid $grey;
+            color: $grey;
+            height: 60px;
+            margin-bottom: 12px;
+            border-radius: 0;
+
+            & :focus {
+                outline: 0;
+                box-shadow: 0;
+            }
+        }
+
+        button {
+            height: 74px;
+            font-size: 26px;
+            font-weight: 600;
+            color: $white;
+        }
+
+        .free-shipping {
+            width: 214px;
+            height: 214px;
+            position: absolute;
+            background: url(../images/sticker-join.png) no-repeat center center;
+            background-size: cover;
+            z-index: 1;
+            right: -193px;
+            bottom: -50px;
+        }
+
+        p.login {
+            color: $mediumGrey;
+            font-weight: 600;
+            font-size: 14px;
+
+            a {
+                color: $black;
+                text-decoration: underline;
+            }
+        }
+
+        .login {
+            p {
+                color: $mediumGrey;
+                margin-bottom: 10px;
+                margin-right: 5px;
+                font-weight: 600;
+
+                a {
+                    color: $black;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .profile-page {
+        svg {
+            width: 100px
+        }
+
+        h3 {
+            color: $green
+        }
+
+        .form-control {
+            background: transparent;
+        }
+    }
+
+    .shipping-address {
+        padding-top: 0 !important;
+
+        svg {
+            path {
+                fill: $grey
+            }
+        }
+
+        .table {
+            thead {
+                border-bottom: 2px solid $lightGrey;
+            }
+
+            td {
+                padding: 5px
+            }
+        }
+    }
+}
+
+.one-stop-shop {
+    background-color: $lightGrey;
+    position: relative;
+
+    .bg-paygos-img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 40%;
+        opacity: .3;
+        margin-top: 10px;
+    }
+
+    h1 {
+        span {
+            color: $green;
+        }
+
+        letter-spacing: -2.76px;
+        font-size: 86px;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-size: 37px;
+        font-weight: 700;
+        margin-top: 20px;
+
+        line-height: 47px;
+    }
+
+    .container {
+        position: relative;
+
+        .one-stop-arrow {
+            position: absolute;
+            left: -60px;
+            bottom: 230px;
+        }
+    }
+}
+
+.savings {
+
+    h3 {
+        font-weight: 700;
+        font-size: 36px
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    a {
+        color: $green;
+        font-weight: 600;
+    }
+}
+
+.how-it-works {
+    position: relative;
+
+    .video-bg {
+        background: url(../images/paygos_video_screen.jpg) no-repeat top center;
+        background-size: cover;
+        width: 1015px;
+        margin: auto;
+        height: 569px;
+        position: relative;
+        margin-top: -40px;
+        box-shadow: 0px 3px 18px #ccc;
+
+        .play-video {
+            background-color: rgba(0, 128, 0, .15);
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+
+            a {
+                margin: auto;
+                width: 65px;
+                height: 65px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                display: block;
+
+                img {
+                    width: 65px;
+                    height: 65px;
+                }
+            }
+        }
+    }
+
+    padding-bottom: 66px;
+
+    .container {
+        position: relative;
+
+        .how-it-works-arrow {
+            position: absolute;
+            right: -90px;
+            top: 25%;
+
+            img {
+                width: 90%
+            }
+        }
+    }
+}
+
+footer {
+    height: 144px;
+    background: $black;
+    font-weight: normal;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 120px !important;
+
+    nav {
+        .nav-link {
+            color: $mediumGrey;
+            border-right: 1px solid $mediumGrey;
+            padding: 0 10px;
+            line-height: 14px;
+        }
+    }
+
+    p {
+        color: $mediumGrey;
+    }
+
+    .move-top {
+        position: absolute;
+        bottom: 200px;
+        right: 50px;
+    }
+
+    .chat-icon {
+        position: absolute;
+        right: 10px;
+        cursor: pointer;
+    }
+}
+
+
+.cookies {
+    background: rgba(0, 0, 0, .9);
+    position: fixed;
+    bottom: 0;
+    color: $white;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    button {
+        color: $white;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    a {
+        color: $white;
+        text-decoration: underline;
+        color: $white;
+    }
+
+    .close {
+        position: absolute;
+        color: $white;
+        right: -100px;
+        top: 10px;
+        cursor: pointer;
+    }
+}
+
+// Reset Password
+.login-logo-container {
+    .img-fluid {
+        width: 80%
+    }
+}
+
+.reset-password {
+    .join-now {
+        margin-top: -60px;
+        background: $white;
+        margin-bottom: 100px;
+
+        h3 {
+            font-weight: 650;
+            margin-bottom: 30px;
+            font-size: 27px;
+        }
+
+        h5,
+        span {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        p {
+            color: $mediumGrey;
+            letter-spacing: -.5px;
+            line-height: 18px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .table-responsive {
+        padding: 20px;
+    }
+}
+
+// 
+.reset-password {
+    .register-thanks {
+        text-align: center;
+
+        h4 {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 30px;
+
+            a {
+                color: $green;
+                text-decoration: underline;
+            }
+        }
+    }
+}

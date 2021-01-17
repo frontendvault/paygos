@@ -1,0 +1,272 @@
+.addto-cart-section {
+    .add-to-cart-subtotal {
+
+        .btn {
+            margin-top: 20px;
+            color: $white;
+            font-weight: 700;
+            padding: 12px 20px;
+        }
+    }
+
+    svg {
+        width: 60px;
+        margin-right: 20px;
+
+        path {
+            fill: $green
+        }
+    }
+}
+
+.purchasing-cart {
+    h3 {
+        font-size: 50px;
+        font-weight: 600;
+        color: $green;
+    }
+
+    .item-in-cart {
+        h4 {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .cart-price-section {
+            strong {
+                font-size: 30px;
+            }
+
+            .btn {
+                background: $lightGrey;
+                font-size: 14px;
+                font-weight: 600;
+                border: 1px solid $mediumGrey;
+            }
+
+            .input-group {
+                border: 1px solid $mediumGrey;
+
+                .btn {
+                    background: $white;
+                    border: 0;
+                    border-radius: 0;
+                }
+
+                .form-control {
+                    height: 50px;
+                    border: 0;
+                }
+            }
+        }
+    }
+
+    .begin-checkout {
+        font-size: 22px;
+
+        .col-auto {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+
+
+        .btn {
+            color: $white;
+        }
+
+        .edit-btn {
+            background: $lightGrey;
+            color: $black;
+            font-weight: 600;
+            border-radius: 0;
+            border: 1px solid $mediumGrey;
+        }
+    }
+
+    .wizard-shipping-address {
+        h4 {
+            color: $green;
+        }
+
+        .split-payment {
+            display: flex;
+            font-weight: 700;
+            align-items: center;
+            cursor: pointer;
+
+            span {
+                font-size: 40px;
+                display: inline-block;
+                color: $green;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.help-page-section {
+    .help-page {
+        h4 {
+            color: $green;
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .ship-address-action {
+            margin-top: 30px;
+
+            .btn {
+                margin-right: 10px;
+            }
+        }
+
+        .add-address-col {
+            text-align: center;
+            cursor: pointer;
+
+            svg {
+                path {
+                    fill: $green !important;
+                }
+            }
+        }
+
+        .btn {
+            background: $lightGrey;
+            border: 1px solid $mediumGrey;
+            border-radius: 0;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    .help-questions {
+        border-top: 1px solid $mediumGrey;
+
+        h4 {
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .nav {
+            .nav-link {
+                color: $green;
+                font-weight: 600;
+                padding-left: 0;
+                padding: 2px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    svg {
+        width: 80px;
+        margin-left: -20px;
+
+        path {
+            fill: $mediumGrey;
+        }
+    }
+}
+
+.not-found {
+    h2 {
+        font-size: 70px;
+        color: $green;
+        font-weight: 700;
+        letter-spacing: -0.96px;
+    }
+
+    h4 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .btn {
+        font-weight: 600;
+        color: $white;
+        padding: 12px 30px;
+    }
+}
+
+.cart-wizard-header {
+    position: relative;
+
+    .wizard-control {
+        max-width: 624px
+    }
+
+    .secure-checkout {
+        h3 {
+            font-size: 34px;
+            font-weight: bold;
+            color: $green
+        }
+    }
+
+    .bg-line {
+        height: 2px;
+        background: $dark;
+        position: absolute;
+        top: 25px;
+        width: 400px;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .circle-blank {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid $dark;
+        font-size: 25px;
+        line-height: 45px;
+        font-weight: 600;
+        margin: 0 auto;
+        background: $white;
+        text-align: center;
+        color: $dark;
+    }
+
+    .circle-fill {
+        background: $dark;
+        color: $white;
+    }
+
+    h4 {
+        font-size: 22px;
+        font-weight: 700;
+        color: $green;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.wizard-shipping-address {}
+
+.order-placed {
+
+
+    h4 {
+        color: $green;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    strong {
+        color: $mediumGrey; font-size:20px
+    }
+}

@@ -1,0 +1,669 @@
+@media (max-width:767px) {
+    .container-wrapper {
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        background: $white;
+        box-shadow: 0 8px 6px -6px $grey;
+        height: 180px;
+        top: 0;
+
+        .navbar {
+            .dropdown-menu {
+                box-shadow: none;
+                padding-left: 20px;
+
+                .dropdown-item {}
+            }
+        }
+    }
+
+    .left-right-border {
+        border: 0 !important;
+    }
+
+    .top-bar {
+        // padding: 4px;
+        // padding-right: 10px;
+
+        h4 {
+            font-size: 14px;
+            text-align: right;
+            margin-right: 10px;
+            width: 40%;
+        }
+    }
+
+    .mobile-margin-top {
+        padding-top: 220px !important;
+    }
+
+    .main-logo {
+        width: 150px;
+    }
+
+    header {
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+        nav {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            justify-content: flex-end;
+            width: 100%;
+        }
+    }
+
+    .navbar {
+        background: transparent !important;
+    }
+
+    .navbar-collapse {
+        background: $green
+    }
+
+    .navbar-toggler {
+        padding: 0;
+        background: transparent;
+        border: 0;
+        outline: none;
+
+        .hamburger {
+            width: 40px
+        }
+
+        outline:none;
+    }
+
+    .mobile-search {
+        width: 333px;
+
+        .form-control {
+            border-radius: 0;
+            height: 36px;
+
+            .input-group-append,
+            .input-group-text {
+                height: 48px;
+
+            }
+        }
+
+        svg {
+            width: 20px;
+
+            path {
+                fill: $green
+            }
+        }
+    }
+
+    .navbar {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    padding: 20px 20px;
+                    border-top: 1px solid $mediumGrey;
+                }
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        border-top: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .one-stop-shop {
+        margin-top: 120px;
+
+        h1 {
+            font-size: 38px
+        }
+
+        h4 {
+            font-size: 19px;
+            line-height: 26px;
+        }
+
+        .bg-paygos-img {
+            width: 100%;
+            opacity: .1;
+        }
+
+        .one-stop-arrow {
+            display: none;
+        }
+    }
+
+
+    .savings {
+        h3 {
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        a {
+            margin-bottom: 40px;
+            display: block;
+        }
+    }
+
+    .how-it-works {
+        .video-bg {
+            background-size: contain;
+            height: 216px;
+            margin-top: 86px;
+
+            .play-video {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        .container {
+            .how-it-works-arrow {
+                width: 150px;
+                right: 0;
+                left: 0;
+                margin: auto;
+                top: -100px;
+            }
+        }
+    }
+
+    .cookies {
+        padding-right: 1.25rem;
+        height: 400px;
+
+        p {
+            color: $lightGrey;
+        }
+
+        .close {
+            right: -20px;
+            top: -54px;
+            font-size: 30px;
+        }
+
+        button {
+            font-size: 20px;
+        }
+
+        a {
+            margin-bottom: 10px;
+            display: inline-block
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        min-height: 50px;
+        padding-top: 10px;
+        padding: 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .nav {
+            margin-bottom: 20px
+        }
+    }
+
+    // Home.html Page CSS
+    .main-sliding-banner {
+        background: #f7f7f7;
+
+        .carousel-item {
+            h2 {
+                font-size: 26px;
+                margin-top: 20px;
+
+                span {
+                    font-size: 20px;
+                    color: $grey;
+                }
+            }
+
+            a {
+                background: $green;
+                color: $white;
+                padding: 5px 8px;
+                border-radius: 4px;
+                text-decoration: none;
+            }
+
+            .banner-price {
+                font-size: 30px;
+                border-radius: 0;
+                width: 100%;
+                height: 50px;
+                background: transparent;
+
+                div {
+                    letter-spacing: normal;
+
+                    span {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+
+        .carousel-indicators {
+            bottom: -40px
+        }
+    }
+
+    .cart-container {
+        padding-bottom: 40px;
+
+        .cart-section {
+            .price-stock {
+                margin-top: 20px;
+            }
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        .form-inline {
+            margin-bottom: 10px;
+        }
+
+        .delivery-order {
+            padding: 0;
+            line-height: 0;
+        }
+    }
+
+    .category-shop {
+        .item-container {
+            .item {
+                max-width: 100%;
+
+            }
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 0;
+            margin-right: 20px
+        }
+
+        .sub-heading {
+            margin-bottom: 10px;
+
+            a {
+                margin-top: 10px;
+                width: 130px;
+                text-align: right;
+            }
+        }
+    }
+
+    .slick-slider {
+        .slick-next {
+            right: -17px
+        }
+
+        .slick-prev {
+            left: -17px;
+            z-index: 1;
+        }
+
+        .slick-arrow {
+            top: 50px
+        }
+    }
+
+    .login-logo-container {
+        .img-fluid {
+            width: 60%;
+            margin-top: 60px !important
+        }
+    }
+
+    .reset-password {
+        background: $white !important;
+        border-top: 0 !important;
+
+        .join-now {
+            margin-top: 20px;
+            box-shadow: none !important;
+            background: transparent;
+
+            h3 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 20px;
+            }
+
+            .login {
+                p {
+                    a {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+
+    .paygos-join {
+        .join-now {
+            .form-control {
+                height: 50px;
+            }
+
+            button {
+                height: 50px;
+                font-size: 20px
+            }
+
+            .free-shipping {
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+                bottom: -210px;
+            }
+
+        }
+
+        h4 {
+            font-size: 22px;
+            font-weight: 650;
+        }
+    }
+
+    .addto-cart-section {
+        .add-to-cart-subtotal {
+            margin-top: 30px;
+
+            .btn {
+                width: 100%;
+                padding: 6px;
+                font-size: 18px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .help-page-section {
+        padding-bottom: 30px;
+
+        svg {
+            width: 120px
+        }
+
+        .help-page {
+            p {
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .btn {
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            h4 {
+                text-align: center;
+                font-weight: 700;
+            }
+        }
+
+        .left-right-border {
+            // border-top: 1px solid $mediumGrey !important;
+            // border-bottom: 1px solid $mediumGrey !important;
+        }
+    }
+
+    .mobile-heading-big {
+        font-size: 30px !important;
+    }
+
+    .help-mobile {
+        .help-page {
+            svg {
+                margin-left: -30px
+            }
+
+            h4 {
+                margin-top: -20px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: -83px;
+        left: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.4s ease;
+        display: block;
+        bottom: 0;
+        height: 100vh;
+        padding-left: 40px;
+
+        .navbar-toggler {
+            font-size: 40px;
+            color: $white;
+            margin-left: -20px;
+            margin-top: 30px;
+        }
+
+        p {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            line-height: 20px;
+            color: $white;
+
+            img {
+                width: 25px
+            }
+        }
+    }
+
+
+    .navbar-collapse.collapsing {
+        margin-left: 50%;
+        left: 50%;
+        transition: all 0.2s ease;
+        height: 100vh !important;
+    }
+
+    .navbar-collapse.show {
+        left: 30px;
+    }
+
+    .mobile-filter-container {
+        margin-bottom: 20px;
+        position: relative;
+
+        .btn {
+            border: 1px solid $mediumGrey;
+            border-radius: 0;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+
+    }
+
+
+
+    .mobile-overlay {
+        position: fixed;
+        background: $lightGrey;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 100px;
+        z-index: 999;
+        bottom: 0;
+        height: 100vh;
+        overflow-y: scroll;
+        padding: 20px 30px;
+
+        .mobile-filter {
+            font-size: 50px;
+            color: $grey;
+        }
+
+        h5 {
+            margin-bottom: 0;
+        }
+    }
+
+    .cart-overlay {
+        top: 180px;
+        font-size: 20px;
+    }
+
+    .cart-mobile {
+        padding-right: 0;
+    }
+
+    .purchasing-cart {
+        .item-in-cart {
+            h3 {
+                font-size: 35px;
+            }
+
+            h4 {
+                font-size: 22px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .mobile-begin-checkout {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+
+        .btn {
+            background: $green;
+            font-weight: 600;
+        }
+    }
+
+    .cart-wizard-header {
+        .wizard-control {
+            max-width: 400px;
+
+            .circle-blank {
+                width: 40px;
+                height: 40px;
+                line-height: 35px
+            }
+
+            h4 {
+                font-size: 18px
+            }
+        }
+
+        .bg-line {
+            width: 250px
+        }
+
+        .secure-checkout {
+            padding: 20px 10px;
+
+            h3 {
+                font-size: 28px;
+
+                img {
+                    width: 32px
+                }
+            }
+
+            img {
+                width: 70%
+            }
+        }
+    }
+
+    .fill-card {
+        .form-control {
+            height: 50px
+        }
+    }
+
+    .payment-option-form {
+        form {
+            .form-group {
+                .form-control {
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    .order-summary {
+        border-right: 0;
+    }
+
+    .order-process {
+        .order-process-steps {
+            width: 350px;
+
+            .step {
+                width: 35px;
+                height: 35px;
+            }
+
+            .step-blank {
+                h4 {
+                    font-size: 17px;
+                }
+            }
+
+            .fill {
+                &:after {
+                    width: 10px;
+                    height: 15px;
+                    border-width: 0 4px 4px 0;
+                }
+            }
+        }
+
+        .step-small {
+            height: 12px;
+            width: 12px
+        }
+
+    }
+
+    .not-found {
+        h2 {
+            font-size: 40px;
+        }
+    }
+}
