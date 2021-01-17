@@ -795,6 +795,11 @@ header .nav .nav-link svg path {
   font-weight: 500;
 }
 
+.category-shop .sub-heading .form-inline .form-group label {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
 .category-shop h2 {
   font-size: 50px;
   font-weight: 700;

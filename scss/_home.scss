@@ -160,6 +160,15 @@ header {
             color: $green;
             font-weight: 500;
         }
+
+        .form-inline {
+            .form-group {
+                label {
+                    font-weight: 600;
+                    margin-right: 10px;
+                }
+            }
+        }
     }
 
     h2 {
@@ -363,7 +372,9 @@ header {
         }
     }
 
-    .more { margin-bottom: 20px;
+    .more {
+        margin-bottom: 20px;
+
         a {
             color: $green
         }
