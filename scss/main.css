@@ -625,6 +625,10 @@ footer .chat-icon {
   padding: 20px;
 }
 
+.reset-password .custom-checkbox .custom-control-label::before {
+  border-radius: 0;
+}
+
 .reset-password .register-thanks {
   text-align: center;
 }
@@ -1006,6 +1010,10 @@ header .nav .nav-link svg path {
   max-width: 252px;
 }
 
+.market-filter .serp-page .item-container .item {
+  max-width: 223px;
+}
+
 .market-filter .pagination .page-item .page-link {
   color: #43ab6c;
   background: transparent;
@@ -1335,6 +1343,9 @@ header .nav .nav-link svg path {
     font-size: 12px;
     line-height: 16px;
   }
+  .market-filter .serp-page .item-container .item {
+    max-width: 228px;
+  }
   .main-sliding-banner .carousel-item h2 {
     font-size: 30px;
   }
@@ -1449,6 +1460,9 @@ header .nav .nav-link svg path {
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .category-shop .item-container .item {
     max-width: 182px;
+  }
+  .market-filter .serp-page .item-container .item {
+    max-width: 232px;
   }
   .slick-slider .slick-arrow {
     top: 52px;

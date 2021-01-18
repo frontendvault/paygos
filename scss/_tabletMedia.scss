@@ -95,6 +95,14 @@
     }
   }
 
+  .market-filter {
+    .serp-page {
+      .item-container {
+        .item { max-width: 228px;}
+      }
+    }
+  }
+
   .main-sliding-banner {
     .carousel-item {
       h2 {
@@ -243,7 +251,8 @@
 
   .cart-wizard-header {
     .wizard-control {
-      max-width: 300px; margin-top: 10px;
+      max-width: 300px;
+      margin-top: 10px;
 
       h4 {
         font-size: 16px;
@@ -271,5 +280,10 @@
         }
       }
     }
-  }.border-ipad{ border-bottom:1px solid $mediumGrey; padding-bottom:30px}
+  }
+
+  .border-ipad {
+    border-bottom: 1px solid $mediumGrey;
+    padding-bottom: 30px
+  }
 }

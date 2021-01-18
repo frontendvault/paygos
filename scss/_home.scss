@@ -250,13 +250,15 @@ header {
         right: -50px
     }
 }
-    .delivery-order {
-        p {
-            svg {
-                width: 50px
-            }
+
+.delivery-order {
+    p {
+        svg {
+            width: 50px
         }
     }
+}
+
 // Market Place
 .cart-container {
     padding-bottom: 120px;
@@ -389,7 +391,13 @@ header {
             max-width: 252px;
         }
     }
-
+    .serp-page {
+        .item-container {
+            .item {
+                max-width: 223px;
+            }
+        }
+    }
     .pagination {
         .page-item {
             .page-link {

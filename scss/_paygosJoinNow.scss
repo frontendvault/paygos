@@ -368,7 +368,7 @@ footer {
 
     .table-responsive {
         padding: 20px;
-    }
+    }.custom-checkbox .custom-control-label::before{ border-radius: 0;}
 }
 
 // 
