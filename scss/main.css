@@ -1480,11 +1480,28 @@ header .nav .nav-link svg path {
   .left-right-border {
     border: 0 !important;
   }
+  .top-bar {
+    padding: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 12px;
+  }
+  .top-bar select.form-control {
+    font-size: 12px;
+  }
   .top-bar h4 {
     font-size: 14px;
-    text-align: right;
+    text-align: center;
     margin-right: 10px;
     width: 40%;
+  }
+  .top-bar .nav {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding-right: 10px;
+  }
+  .top-bar .nav .nav-link {
+    padding: 5px;
   }
   .mobile-margin-top {
     padding-top: 220px !important;

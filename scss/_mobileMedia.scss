@@ -22,15 +22,26 @@
         border: 0 !important;
     }
 
-    .top-bar {
-        // padding: 4px;
-        // padding-right: 10px;
+    .top-bar { padding: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 12px;
+
+        select.form-control {
+            font-size: 12px;
+        }
 
         h4 {
             font-size: 14px;
-            text-align: right;
+            text-align: center;
             margin-right: 10px;
             width: 40%;
+        }
+
+        .nav {
+            flex-wrap: nowrap; padding-right: 10px;
+
+            .nav-link { padding: 5px;}
         }
     }
 
