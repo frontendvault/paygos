@@ -885,6 +885,10 @@ header .nav .nav-link svg path {
   right: -50px;
 }
 
+.delivery-order p svg {
+  width: 50px;
+}
+
 .cart-container {
   padding-bottom: 120px;
 }
@@ -943,10 +947,6 @@ header .nav .nav-link svg path {
 
 .cart-container .form-inline button:hover {
   background: #43ab6c;
-}
-
-.cart-container .delivery-order p svg {
-  width: 50px;
 }
 
 .cart-container .brand-flavour {
@@ -1979,6 +1979,10 @@ body {
 
 .breadcrumb .breadcrumb-item a {
   color: #43ab6c;
+}
+
+.location img {
+  width: 20px;
 }
 
 .left-right-border {

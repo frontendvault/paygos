@@ -250,7 +250,13 @@ header {
         right: -50px
     }
 }
-
+    .delivery-order {
+        p {
+            svg {
+                width: 50px
+            }
+        }
+    }
 // Market Place
 .cart-container {
     padding-bottom: 120px;
@@ -314,13 +320,7 @@ header {
 
     }
 
-    .delivery-order {
-        p {
-            svg {
-                width: 50px
-            }
-        }
-    }
+
 
     .brand-flavour {
         font-weight: 600;
