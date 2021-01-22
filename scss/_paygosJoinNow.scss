@@ -25,7 +25,7 @@
         }
     }
 
-   
+
 }
 
 
@@ -368,7 +368,23 @@ footer {
 
     .table-responsive {
         padding: 20px;
-    }.custom-checkbox .custom-control-label::before{ border-radius: 0;}
+
+        .table {
+            th {
+                font-size: 22px;
+                font-weight: 700;
+            }
+
+            td {
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .custom-checkbox .custom-control-label::before {
+        border-radius: 0;
+    }
 }
 
 // 

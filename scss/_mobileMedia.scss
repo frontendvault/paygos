@@ -22,7 +22,8 @@
         border: 0 !important;
     }
 
-    .top-bar { padding: 5px;
+    .top-bar {
+        padding: 5px;
         padding-right: 0px;
         padding-left: 0px;
         font-size: 12px;
@@ -39,9 +40,12 @@
         }
 
         .nav {
-            flex-wrap: nowrap; padding-right: 10px;
+            flex-wrap: nowrap;
+            padding-right: 10px;
 
-            .nav-link { padding: 5px;}
+            .nav-link {
+                padding: 5px;
+            }
         }
     }
 
@@ -368,6 +372,22 @@
                     a {
                         color: $black;
                     }
+                }
+            }
+        }
+
+        .table-responsive {
+            padding: 20px;
+
+            .table {
+                th {
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                td {
+                    font-size: 14px;
+                    font-weight: 500;
                 }
             }
         }

@@ -625,6 +625,16 @@ footer .chat-icon {
   padding: 20px;
 }
 
+.reset-password .table-responsive .table th {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.reset-password .table-responsive .table td {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .reset-password .custom-checkbox .custom-control-label::before {
   border-radius: 0;
 }
@@ -1165,6 +1175,11 @@ header .nav .nav-link svg path {
   border-radius: 0;
   font-size: 14px;
   font-weight: 500;
+}
+
+.help-page-section .help-page .mobile-heading-big {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .help-page-section .help-questions {
@@ -1759,6 +1774,17 @@ header .nav .nav-link svg path {
   }
   .reset-password .join-now .login p a {
     color: #000;
+  }
+  .reset-password .table-responsive {
+    padding: 20px;
+  }
+  .reset-password .table-responsive .table th {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .reset-password .table-responsive .table td {
+    font-size: 14px;
+    font-weight: 500;
   }
   .paygos-join .join-now .form-control {
     height: 50px;
