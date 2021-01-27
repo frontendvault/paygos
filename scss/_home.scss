@@ -74,7 +74,8 @@ header {
 }
 
 .main-sliding-banner {
-    background: #eff0e9;
+    background: url(../images/carousel-bg.png) no-repeat left bottom; background-size: cover;
+    background-color: #eff0e9;
 
     .carousel-item {
         h2 {

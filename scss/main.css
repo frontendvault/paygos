@@ -717,7 +717,9 @@ header .nav .nav-link svg path {
 }
 
 .main-sliding-banner {
-  background: #eff0e9;
+  background: url(../images/carousel-bg.png) no-repeat left bottom;
+  background-size: cover;
+  background-color: #eff0e9;
 }
 
 .main-sliding-banner .carousel-item h2 {
