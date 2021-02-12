@@ -401,7 +401,7 @@
   right: 0;
   top: 0;
   width: 40%;
-  opacity: .3;
+  opacity: 0.3;
   margin-top: 10px;
 }
 
@@ -510,8 +510,12 @@
 }
 
 footer {
-  height: 144px;
+  position: relative;
   background: #000;
+}
+
+footer .container {
+  height: 144px;
   font-weight: normal;
   position: relative;
   display: -webkit-box;
@@ -526,27 +530,27 @@ footer {
   padding-right: 120px !important;
 }
 
-footer nav .nav-link {
+footer .container nav .nav-link {
   color: #B7B7B7;
   border-right: 1px solid #B7B7B7;
   padding: 0 10px;
   line-height: 14px;
 }
 
-footer p {
+footer .container p {
   color: #B7B7B7;
+}
+
+footer .container .chat-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
 }
 
 footer .move-top {
   position: absolute;
   bottom: 200px;
   right: 50px;
-}
-
-footer .chat-icon {
-  position: absolute;
-  right: 10px;
-  cursor: pointer;
 }
 
 .cookies {
@@ -616,7 +620,7 @@ footer .chat-icon {
 
 .reset-password .join-now p {
   color: #B7B7B7;
-  letter-spacing: -.5px;
+  letter-spacing: -0.5px;
   line-height: 18px;
   margin-bottom: 40px;
 }
@@ -1604,7 +1608,7 @@ header .nav .nav-link svg path {
   }
   .one-stop-shop .bg-paygos-img {
     width: 100%;
-    opacity: .1;
+    opacity: 0.1;
   }
   .one-stop-shop .one-stop-arrow {
     display: none;
@@ -2004,6 +2008,9 @@ header .nav .nav-link svg path {
   .not-found h2 {
     font-size: 40px;
   }
+  .no-bg-mobile {
+    background: transparent !important;
+  }
 }
 
 html {
@@ -2011,12 +2018,18 @@ html {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .container {
   max-width: 1440px;
   width: 100%;
+}
+
+.custom-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .btn-green {
