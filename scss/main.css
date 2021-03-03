@@ -1663,6 +1663,10 @@ header .nav .delivery-status img {
     margin: auto;
     top: -100px;
   }
+  .how-it-works .container .how-it-works-arrow img {
+    width: 60%;
+    margin-top: -30px;
+  }
   .cookies {
     padding-right: 1.25rem;
     height: 400px;
@@ -1829,8 +1833,11 @@ header .nav .delivery-status img {
     text-align: center;
   }
   .paygos-join h4 {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 650;
+    width: 74%;
+    margin: 0 auto;
+    margin-bottom: 40px !important;
   }
   .addto-cart-section .add-to-cart-subtotal {
     margin-top: 30px;
@@ -2083,5 +2090,28 @@ body {
 .left-right-border {
   border-left: 1px solid #B7B7B7;
   border-right: 1px solid #B7B7B7;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  border-color: #28a745 !important;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border-color: #dc3545 !important;
+  background: rgba(255, 0, 0, 0.1);
+  position: relative;
+}
+
+.form-control.is-invalid:before,
+.was-validated .form-control:invalid:before {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  font-size: 30px;
+  color: #dc3545;
 }
 /*# sourceMappingURL=main.css.map */

@@ -191,6 +191,12 @@
         margin: auto;
         top: -100px;
       }
+      .how-it-works-arrow {
+        img {
+          width: 60%;
+          margin-top: -30px;
+        }
+      }
     }
   }
 
@@ -413,8 +419,11 @@
     }
 
     h4 {
-      font-size: 22px;
+      font-size: 16px;
       font-weight: 650;
+      width: 74%;
+      margin: 0 auto;
+      margin-bottom: 40px !important;
     }
   }
 

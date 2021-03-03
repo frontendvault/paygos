@@ -55,31 +55,37 @@
             </div>
             <div class="row">
               <div class="col join-now">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="First Name"
-                />
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Last Name"
-                />
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Postal Code"
-                />
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Email Address"
-                />
-                <div class="d-grid gap-2 mb-4">
-                  <button class="btn text-uppercase btn-block mt-2 btn-green">
-                    Join Now
-                  </button>
-                </div>
+                <form class="needs-validation" novalidate>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Postal Code"
+                    required
+                  />
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <div class="d-grid gap-2 mb-4">
+                    <button class="btn text-uppercase btn-block mt-2 btn-green">
+                      Join Now
+                    </button>
+                  </div>
+                </form>
                 <p class="login text-center">
                   Already have an account? <a href="#">Log in </a>
                 </p>
@@ -226,5 +232,36 @@
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+        window.addEventListener(
+          "load",
+          function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName("needs-validation");
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(
+              forms,
+              function (form) {
+                form.addEventListener(
+                  "submit",
+                  function (event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add("was-validated");
+                  },
+                  false
+                );
+              }
+            );
+          },
+          false
+        );
+      })();
+    </script>
   </body>
 </html>
