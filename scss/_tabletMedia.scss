@@ -6,23 +6,21 @@
 
     h4 {
       font-size: 26px;
-      line-height: 32px
+      line-height: 32px;
     }
 
     .container {
       padding-left: 70px;
       padding-right: 70px;
 
-
       .one-stop-arrow {
         left: 0;
         bottom: 300px;
 
         img {
-          width: 40px
+          width: 40px;
         }
       }
-
     }
   }
 
@@ -35,6 +33,10 @@
     h4 {
       font-size: 20px;
       font-weight: 600;
+    }
+    .join-now {
+      .free-shipping {
+      }
     }
   }
 
@@ -50,7 +52,8 @@
       font-size: 17px;
     }
 
-    button {}
+    button {
+    }
   }
 
   .savings {
@@ -98,7 +101,9 @@
   .market-filter {
     .serp-page {
       .item-container {
-        .item { max-width: 228px;}
+        .item {
+          max-width: 228px;
+        }
       }
     }
   }
@@ -161,7 +166,8 @@
       font-size: 26px;
     }
 
-    .form-inline {}
+    .form-inline {
+    }
   }
 
   .addto-cart-section {
@@ -170,7 +176,7 @@
     }
 
     svg {
-      width: 45px
+      width: 45px;
     }
 
     .add-to-cart-subtotal {
@@ -184,9 +190,13 @@
 
   .how-it-works {
     .how-it-works-arrow {
-      right: 6px !important;
-      top: 30% !important;
-      width: 163px !important;
+      right: 128px !important;
+      width: 100px;
+      // top: 30% ;
+      // width: 163px !important;
+      img {
+        width: 45% !important;
+      }
     }
 
     img {
@@ -194,7 +204,11 @@
     }
 
     .video-bg {
+      margin: auto;
       height: 350px;
+      .play-video {
+        // margin: auto;
+      }
     }
   }
 
@@ -220,7 +234,7 @@
       font-size: 14px;
       // strong {
       //   font-size: 18px;
-      // } 
+      // }
       // .btn{ background: $lightGrey;}
     }
   }
@@ -261,12 +275,12 @@
       .circle-blank {
         height: 40px;
         width: 40px;
-        line-height: 35px
+        line-height: 35px;
       }
     }
 
     .bg-line {
-      width: 220px
+      width: 220px;
     }
 
     .secure-checkout {
@@ -276,7 +290,7 @@
 
         img {
           width: 20px;
-          margin-left: 5px
+          margin-left: 5px;
         }
       }
     }
@@ -284,6 +298,6 @@
 
   .border-ipad {
     border-bottom: 1px solid $mediumGrey;
-    padding-bottom: 30px
+    padding-bottom: 30px;
   }
 }

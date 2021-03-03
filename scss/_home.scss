@@ -23,14 +23,19 @@ header {
       }
     }
   }
-
+  .cart-top-header {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
   .nav {
     .nav-link {
-      color: $black;
+      color: $green;
       font-weight: 600;
 
       svg {
         width: 30px;
+        // transform: rotate(180deg);
 
         path {
           fill: $green;
@@ -42,6 +47,9 @@ header {
     .delivery-status {
       font-size: 16px;
       margin-bottom: 0;
+      img {
+        width: 40px;
+      }
     }
   }
 }

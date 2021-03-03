@@ -330,20 +330,20 @@
 }
 
 .paygos-join .join-now .free-shipping {
-  width: 214px;
-  height: 214px;
   position: absolute;
-  background: url(../images/sticker-join.png) no-repeat center center;
-  background-size: cover;
   z-index: 1;
-  right: -193px;
+  right: -180px;
   bottom: -50px;
+}
+
+.paygos-join .join-now .free-shipping img {
+  width: 170px;
 }
 
 .paygos-join .join-now p.login {
   color: #B7B7B7;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .paygos-join .join-now p.login a {
@@ -434,12 +434,12 @@
 
 .savings h3 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .savings p {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 28px;
 }
 
@@ -457,7 +457,7 @@
   background: url(../images/paygos_video_screen.jpg) no-repeat top center;
   background-size: cover;
   width: 1015px;
-  margin: auto;
+  margin-left: 0;
   height: 569px;
   position: relative;
   margin-top: -40px;
@@ -501,7 +501,7 @@
 
 .how-it-works .container .how-it-works-arrow {
   position: absolute;
-  right: -90px;
+  right: -300px;
   top: 25%;
 }
 
@@ -685,8 +685,18 @@ header .input-group svg path {
   fill: #43ab6c;
 }
 
+header .cart-top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
 header .nav .nav-link {
-  color: #000;
+  color: #43ab6c;
   font-weight: 600;
 }
 
@@ -701,6 +711,10 @@ header .nav .nav-link svg path {
 header .nav .delivery-status {
   font-size: 16px;
   margin-bottom: 0;
+}
+
+header .nav .delivery-status img {
+  width: 40px;
 }
 
 .map-location {
@@ -1420,11 +1434,14 @@ header .nav .delivery-status {
     font-weight: 600;
   }
   .how-it-works .how-it-works-arrow {
-    right: 6px !important;
-    top: 30% !important;
-    width: 163px !important;
+    right: 128px !important;
+    width: 100px;
+  }
+  .how-it-works .how-it-works-arrow img {
+    width: 45% !important;
   }
   .how-it-works .video-bg {
+    margin: auto;
     height: 350px;
   }
   .purchasing-cart h3 {
@@ -1808,7 +1825,8 @@ header .nav .delivery-status {
     right: 0;
     left: 0;
     margin: 0 auto;
-    bottom: -210px;
+    bottom: -174px;
+    text-align: center;
   }
   .paygos-join h4 {
     font-size: 22px;
@@ -2027,7 +2045,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1640px;
   width: 100%;
 }
 

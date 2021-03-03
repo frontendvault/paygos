@@ -66,20 +66,23 @@
     }
 
     .free-shipping {
-      width: 214px;
-      height: 214px;
+      // width: 214px;
+      // height: 214px;
       position: absolute;
-      background: url(../images/sticker-join.png) no-repeat center center;
-      background-size: cover;
+      // background: url(../images/sticker-join.png) no-repeat center center;
+      // background-size: cover;
       z-index: 1;
-      right: -193px;
+      right: -180px;
       bottom: -50px;
+      img {
+        width: 170px;
+      }
     }
 
     p.login {
       color: $mediumGrey;
-      font-weight: 600;
-      font-size: 14px;
+      font-weight: 500;
+      font-size: 16px;
 
       a {
         color: $black;
@@ -182,12 +185,12 @@
 .savings {
   h3 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 40px;
   }
 
   p {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 28px;
   }
 
@@ -204,7 +207,7 @@
     background: url(../images/paygos_video_screen.jpg) no-repeat top center;
     background-size: cover;
     width: 1015px;
-    margin: auto;
+    margin-left: 0;
     height: 569px;
     position: relative;
     margin-top: -40px;
@@ -248,7 +251,7 @@
 
     .how-it-works-arrow {
       position: absolute;
-      right: -90px;
+      right: -300px;
       top: 25%;
 
       img {
