@@ -659,12 +659,12 @@ footer .move-top {
 }
 
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 header .input-group {
-  width: 333px;
+  width: 500px;
 }
 
 header .input-group .form-control {
@@ -696,6 +696,11 @@ header .nav .nav-link svg {
 
 header .nav .nav-link svg path {
   fill: #43ab6c;
+}
+
+header .nav .delivery-status {
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
 .map-location {
@@ -789,7 +794,7 @@ header .nav .nav-link svg path {
   background-color: #43ab6c;
   border-radius: 50%;
   border: 0;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .main-sliding-banner .carousel-indicators .active {
@@ -838,10 +843,10 @@ header .nav .nav-link svg path {
   -webkit-box-shadow: 0 0 10px #E8E8E8;
           box-shadow: 0 0 10px #E8E8E8;
   max-width: 272px;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .category-shop .item-container .item img {
@@ -894,7 +899,7 @@ header .nav .nav-link svg path {
 }
 
 .slick-slider .slick-prev:before {
-  content: '';
+  content: "";
   width: 100px;
   height: 100px;
   border-radius: 50%;
