@@ -51,6 +51,7 @@
       height: 60px;
       margin-bottom: 12px;
       border-radius: 0;
+      opacity: 0.7;
 
       & :focus {
         outline: 0;
@@ -348,9 +349,9 @@ footer {
     margin-bottom: 100px;
 
     h3 {
-      font-weight: 650;
+      font-weight: 500;
       margin-bottom: 30px;
-      font-size: 27px;
+      font-size: 24px;
     }
 
     h5,

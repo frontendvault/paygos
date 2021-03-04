@@ -314,6 +314,7 @@
   height: 60px;
   margin-bottom: 12px;
   border-radius: 0;
+  opacity: 0.7;
 }
 
 .paygos-join .join-now .form-control :focus {
@@ -607,9 +608,9 @@ footer .move-top {
 }
 
 .reset-password .join-now h3 {
-  font-weight: 650;
+  font-weight: 500;
   margin-bottom: 30px;
-  font-size: 27px;
+  font-size: 24px;
 }
 
 .reset-password .join-now h5,
@@ -1345,6 +1346,12 @@ header .nav .delivery-status img {
   .paygos-join h4 {
     font-size: 20px;
     font-weight: 600;
+  }
+  .paygos-join .join-now .form-control {
+    height: 50px !important;
+  }
+  .paygos-join .join-now button {
+    height: 60px;
   }
   .cookies {
     height: 280px;
