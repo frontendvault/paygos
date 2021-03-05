@@ -59,30 +59,36 @@
                   We cannot resend a confirmation to the email address you
                   entered. That email does not exist in our database.
                 </h3>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="First Name"
-                />
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Last Name"
-                />
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Postal Code"
-                />
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Email Address"
-                />
+                <form class="needs-validation" novalidate>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    required
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Postal Code"
+                    required
+                  />
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    required
+                  />
 
-                <button class="btn text-uppercase btn-block my-3 btn-green">
-                  Join Now
-                </button>
+                  <button class="btn text-uppercase btn-block my-3 btn-green">
+                    Join Now
+                  </button>
+                </form>
               </div>
             </div>
           </div>
@@ -106,7 +112,9 @@
         <img src="images/chat_icon.png" alt="" class="chat-icon" />
       </div>
     </footer>
-    <script src="js/custom.js"></script>
+
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/form-validation.js"></script>
   </body>
 </html>
