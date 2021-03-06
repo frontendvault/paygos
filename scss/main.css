@@ -804,6 +804,14 @@ header .nav .delivery-status img {
   color: #43ab6c;
 }
 
+.main-sliding-banner .carousel-item .btn {
+  background: #43ab6c;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  color: #fff;
+}
+
 .main-sliding-banner .carousel-indicators li {
   width: 18px;
   height: 18px;

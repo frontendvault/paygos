@@ -135,6 +135,13 @@ header {
     a {
       color: $green;
     }
+    .btn {
+      background: $green;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 0;
+      color: $white;
+    }
   }
 
   .carousel-indicators {
