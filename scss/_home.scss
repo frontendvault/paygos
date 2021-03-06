@@ -4,6 +4,7 @@ header {
 
   .input-group {
     width: 500px;
+    height: 48px;
 
     .form-control {
       border-radius: 0;
@@ -233,10 +234,11 @@ header {
       }
       .input-group {
         border: 1px solid $grey;
+        height: 35px;
         .form-control {
           padding-top: 0;
           padding-bottom: 0;
-          height: 35px;
+          height: 100%;
         }
         .btn {
           font-size: 20px;
@@ -245,7 +247,6 @@ header {
           background-color: transparent;
           padding-top: 0;
           padding-bottom: 0;
-          height: 35px;
         }
       }
       .btn {
