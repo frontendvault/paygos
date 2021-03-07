@@ -60,7 +60,7 @@
   }
 
   .mobile-margin-top {
-    padding-top: 220px !important;
+    padding-top: 240px !important;
   }
 
   .main-logo {
@@ -262,8 +262,7 @@
 
     .carousel-item {
       h2 {
-        font-size: 26px;
-        margin-top: 20px;
+        font-size: 16px;
 
         span {
           font-size: 20px;
@@ -281,23 +280,37 @@
 
       .banner-price {
         font-size: 30px;
-        border-radius: 0;
-        width: 100%;
-        height: 50px;
-        background: transparent;
+        width: 100px;
+        height: 100px;
 
         div {
           letter-spacing: normal;
+          line-height: 40px;
+          font-size: 25px;
 
           span {
-            font-size: 30px;
+            font-size: 35px;
           }
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          margin-top: -5px;
         }
       }
     }
 
     .carousel-indicators {
       bottom: -40px;
+      li {
+        height: 12px;
+        width: 12px;
+        opacity: 0.8;
+      }
+      .active {
+        height: 12px;
+        width: 12px;
+      }
     }
   }
 
@@ -328,9 +341,13 @@
     .item-container {
       .item {
         max-width: 100%;
+        img {
+          margin-bottom: 5px;
+        }
         p {
           font-size: 12px;
           line-height: 16px;
+          margin-bottom: 10px;
         }
         .input-group {
           height: 30px;

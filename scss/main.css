@@ -1447,9 +1447,29 @@ header .nav .delivery-status img {
   .category-shop .item-container .item {
     max-width: 131px;
   }
+  .category-shop .item-container .item .input-group {
+    height: 28px;
+  }
+  .category-shop .item-container .item .input-group .form-control {
+    padding: 2px;
+  }
+  .category-shop .item-container .item .input-group .btn {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .category-shop .item-container .item p {
     font-size: 12px;
     line-height: 16px;
+  }
+  .category-shop .item-container .item .btn {
+    font-size: 12px;
+    padding: 2px 4px;
+    height: 28px;
   }
   .market-filter .serp-page .item-container .item {
     max-width: 228px;
@@ -1638,7 +1658,7 @@ header .nav .delivery-status img {
     padding: 5px;
   }
   .mobile-margin-top {
-    padding-top: 220px !important;
+    padding-top: 240px !important;
   }
   .main-logo {
     width: 150px;
@@ -1795,8 +1815,7 @@ header .nav .delivery-status img {
     background: #f7f7f7;
   }
   .main-sliding-banner .carousel-item h2 {
-    font-size: 26px;
-    margin-top: 20px;
+    font-size: 16px;
   }
   .main-sliding-banner .carousel-item h2 span {
     font-size: 20px;
@@ -1811,19 +1830,33 @@ header .nav .delivery-status img {
   }
   .main-sliding-banner .carousel-item .banner-price {
     font-size: 30px;
-    border-radius: 0;
-    width: 100%;
-    height: 50px;
-    background: transparent;
+    width: 100px;
+    height: 100px;
   }
   .main-sliding-banner .carousel-item .banner-price div {
     letter-spacing: normal;
+    line-height: 40px;
+    font-size: 25px;
   }
   .main-sliding-banner .carousel-item .banner-price div span {
-    font-size: 30px;
+    font-size: 35px;
+  }
+  .main-sliding-banner .carousel-item .banner-price p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -5px;
   }
   .main-sliding-banner .carousel-indicators {
     bottom: -40px;
+  }
+  .main-sliding-banner .carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    opacity: 0.8;
+  }
+  .main-sliding-banner .carousel-indicators .active {
+    height: 12px;
+    width: 12px;
   }
   .cart-container {
     padding-bottom: 40px;
@@ -1844,9 +1877,13 @@ header .nav .delivery-status img {
   .category-shop .item-container .item {
     max-width: 100%;
   }
+  .category-shop .item-container .item img {
+    margin-bottom: 5px;
+  }
   .category-shop .item-container .item p {
     font-size: 12px;
     line-height: 16px;
+    margin-bottom: 10px;
   }
   .category-shop .item-container .item .input-group {
     height: 30px;

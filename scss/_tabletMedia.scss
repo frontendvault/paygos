@@ -114,10 +114,26 @@
     .item-container {
       .item {
         max-width: 131px;
+        .input-group {
+          height: 28px;
+          .form-control {
+            padding: 2px;
+          }
+          .btn {
+            padding: 0;
+            display: flex;
+            align-items: center;
+          }
+        }
 
         p {
           font-size: 12px;
           line-height: 16px;
+        }
+        .btn {
+          font-size: 12px;
+          padding: 2px 4px;
+          height: 28px;
         }
       }
     }
