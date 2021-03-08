@@ -2184,6 +2184,20 @@ header .nav .delivery-status img {
   .no-bg-mobile {
     background: transparent !important;
   }
+  .mobile-categories {
+    text-align: center;
+    margin-top: -20px;
+  }
+  .mobile-categories a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .mobile-categories .active {
+    color: #43ab6c;
+  }
 }
 
 html {

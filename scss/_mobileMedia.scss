@@ -754,4 +754,18 @@
   .no-bg-mobile {
     background: transparent !important;
   }
+  .mobile-categories {
+    text-align: center;
+    margin-top: -20px;
+    a {
+      font-size: 16px;
+      font-weight: 500;
+      color: $dark;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .active {
+      color: $green;
+    }
+  }
 }
