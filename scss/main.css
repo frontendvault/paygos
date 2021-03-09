@@ -1113,7 +1113,7 @@ header .delivery-status img {
 }
 
 .market-filter .serp-page .item-container .item {
-  max-width: 223px;
+  max-width: auto;
 }
 
 .market-filter .pagination .page-item .page-link {
