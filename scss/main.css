@@ -857,6 +857,15 @@ header .nav .delivery-status img {
   margin-bottom: 36px;
 }
 
+.category-shop .extra-heading h2 {
+  margin-bottom: 20px;
+}
+
+.category-shop .extra-heading a {
+  color: #43ab6c;
+  font-weight: 500;
+}
+
 .category-shop .item-container {
   padding: 8px;
 }
@@ -911,6 +920,8 @@ header .nav .delivery-status img {
   padding-top: 0;
   padding-bottom: 0;
   height: 100%;
+  padding: 0;
+  text-align: center;
 }
 
 .category-shop .item-container .item .input-group .btn {
