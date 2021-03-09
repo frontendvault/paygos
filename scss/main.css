@@ -720,6 +720,14 @@ header .nav .delivery-status img {
   width: 40px;
 }
 
+header .delivery-status {
+  margin-bottom: 0;
+}
+
+header .delivery-status img {
+  width: 40px;
+}
+
 .map-location {
   margin-top: 10px;
 }
