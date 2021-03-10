@@ -957,6 +957,17 @@ header .delivery-status img {
   font-size: 14px;
 }
 
+.category-shop .marketplace-more h4 {
+  color: #43ab6c;
+  font-weight: 700;
+}
+
+.category-shop .marketplace-more a {
+  color: #43ab6c;
+  text-transform: none;
+  font-weight: 500;
+}
+
 .hot-deals {
   background: #fff;
 }
@@ -1563,9 +1574,6 @@ header .delivery-status img {
   }
   .purchasing-cart .begin-checkout {
     font-size: 14px;
-  }
-  .market-filter .item-container .item {
-    max-width: 121px;
   }
   .category-section .custom-control-label {
     font-size: 12px;

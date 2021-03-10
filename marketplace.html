@@ -508,11 +508,46 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid category-shop pb-5 hot-deals shadow">
+    <div class="container-fluid category-shop pb-5 hot-deals bg-light">
       <div class="container">
         <div class="row pt-5">
           <div class="col">
-            <h2>Hot Deals</h2>
+            <h2>Recommended for you</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <!-- Create your own class for the containing div -->
+            <div class="slick-carousel">
+              <!-- Inside the containing div, add one div for each slide -->
+              <div>
+                <!-- You can put an image or text inside each slide div -->
+                <img src="images/carousel-item1.png" alt="" class="img-fluid" />
+              </div>
+              <div>
+                <img src="images/carousel-item2.png" alt="" class="img-fluid" />
+              </div>
+              <div>
+                <img src="images/carousel-item3.png" alt="" class="img-fluid" />
+              </div>
+              <div>
+                <img src="images/carousel-item4.png" alt="" class="img-fluid" />
+              </div>
+              <div>
+                <img src="images/carousel-item5.png" alt="" class="img-fluid" />
+              </div>
+              <div>
+                <img src="images/carousel-item6.png" alt="" class="img-fluid" />
+              </div>
+              <div>
+                <img src="images/carousel-item4.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col">
+            <h2>Best Sellers</h2>
           </div>
         </div>
         <div class="row">
@@ -550,279 +585,8 @@
     <div class="container-fluid category-shop py-5 market-filter">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 category-section d-none d-sm-block">
-            <div class="row">
-              <div class="col-md-12">
-                <h5>Shop By Brand:</h5>
-                <nav class="nav flex-column">
-                  <a class="nav-link active" href="#">Dare</a>
-                  <a class="nav-link" href="#">Eska</a>
-                  <a class="nav-link" href="#">General Mills</a>
-                  <a class="nav-link" href="#">Hershey</a>
-                  <a class="nav-link" href="#">Kruger</a>
-                  <a class="nav-link" href="#">Mars</a>
-                  <a class="nav-link" href="#">Nestle</a>
-                  <a class="nav-link" href="#">Old Dutch</a>
-                  <a class="nav-link" href="#">Rubicon</a>
-                  <a class="nav-link" href="#">Snickers</a>
-                </nav>
-                <div class="more"><a href="#">More</a></div>
-              </div>
-              <div class="col-md-12">
-                <h5>Categories:</h5>
-                <ul>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="cate1"
-                      />
-                      <label class="custom-control-label" for="cate1"
-                        >Confectionary</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="cate2"
-                      />
-                      <label class="custom-control-label" for="cate2"
-                        >Salty Snacks</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="cate3"
-                      />
-                      <label class="custom-control-label" for="cate3"
-                        >Grocery</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="cate4"
-                      />
-                      <label class="custom-control-label" for="cate4"
-                        >Energy Snacks</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="cate5"
-                      />
-                      <label class="custom-control-label" for="cate5"
-                        >Vape</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="cate6"
-                      />
-                      <label class="custom-control-label" for="cate6"
-                        >Automotive</label
-                      >
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <!-- <div class="col-md-12">
-                                <h5>Brands</h5>
-                                <ul>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand1">
-                                            <label class="custom-control-label" for="brand1">Dare Eska</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand2">
-                                            <label class="custom-control-label" for="brand2">General Mills</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand3">
-                                            <label class="custom-control-label" for="brand3">Hershey</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand4">
-                                            <label class="custom-control-label" for="brand4">Kruger</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand5">
-                                            <label class="custom-control-label" for="brand5">Mars</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand6">
-                                            <label class="custom-control-label" for="brand6">Nestle</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand7">
-                                            <label class="custom-control-label" for="brand7">Old Dutch</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand8">
-                                            <label class="custom-control-label" for="brand8">Rubicon</label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brand9">
-                                            <label class="custom-control-label" for="brand9">Snickers</label>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div> -->
-
-              <div class="col-md-12">
-                <h5 class="mb-4">Hot Deals</h5>
-                <h5>Promotions by Brand</h5>
-                <ul>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal1"
-                      />
-                      <label class="custom-control-label" for="deal1"
-                        >Dare Eska</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal2"
-                      />
-                      <label class="custom-control-label" for="deal2"
-                        >General Mills</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal3"
-                      />
-                      <label class="custom-control-label" for="deal3"
-                        >Hershey</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal4"
-                      />
-                      <label class="custom-control-label" for="deal4"
-                        >Kruger</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal5"
-                      />
-                      <label class="custom-control-label" for="brand5"
-                        >Mars</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal6"
-                      />
-                      <label class="custom-control-label" for="deal6"
-                        >Nestle</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal7"
-                      />
-                      <label class="custom-control-label" for="deal7"
-                        >Old Dutch</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal8"
-                      />
-                      <label class="custom-control-label" for="deal8"
-                        >Rubicon</label
-                      >
-                    </div>
-                  </li>
-                  <li>
-                    <div class="custom-control custom-checkbox">
-                      <input
-                        type="checkbox"
-                        class="custom-control-input"
-                        id="deal9"
-                      />
-                      <label class="custom-control-label" for="deal9"
-                        >Snickers</label
-                      >
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-9">
-            <div
+          <div class="col-md-12 col-xl-10 offset-xl-1">
+            <!-- <div
               class="row d-flex d-sm-none justify-content-between mobile-filter-container"
             >
               <div class="col-auto"><button class="btn">Back</button></div>
@@ -1041,6 +805,13 @@
                   </div>
                 </div>
               </div>
+            </div> -->
+            <div class="row marketplace-more">
+              <div class="col-md-12">
+                <h2>Shop by Category</h2>
+              </div>
+              <div class="col"><h4>Beverages</h4></div>
+              <div class="col text-right pr-md-5"><a href="#">See All</a></div>
             </div>
             <div class="row mb-5">
               <div class="col-6 col-md-auto item-container">
@@ -1223,6 +994,55 @@
                   </div>
                 </div>
               </div>
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5 marketplace-more">
+              <div class="col"><h4>Confectionary</h4></div>
+              <div class="col text-right pr-md-5"><a href="#">See All</a></div>
             </div>
             <div class="row mb-5">
               <div class="col-6 col-md-auto item-container">
@@ -1405,8 +1225,333 @@
                   </div>
                 </div>
               </div>
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5 marketplace-more">
+              <div class="col"><h4>General Merch</h4></div>
+              <div class="col text-right pr-md-5"><a href="#">See All</a></div>
             </div>
             <div class="row mb-5">
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5 marketplace-more">
+              <div class="col"><h4>Grocery</h4></div>
+              <div class="col text-right pr-md-5"><a href="#">See All</a></div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-6 col-md-auto item-container">
+                <div class="item">
+                  <img
+                    src="https://via.placeholder.com/350x250"
+                    alt=""
+                    class="img-fluid"
+                  />
+
+                  <p>Kitkat Nestlé Kitkat Minis, 380g Pouch, 380g</p>
+                  <div class="row">
+                    <div class="col">
+                      <small class="mb-0">12/142gr</small>
+                      <p>
+                        <span>&dollar;6.97</span>
+                        <span> <del>&dollar;9.40</del> </span>
+                      </p>
+                    </div>
+                    <div class="col in-stock">In Stock</div>
+                  </div>
+                  <div class="row justify-content-between">
+                    <div class="col-6 pr-0">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <button class="btn" type="button" id="button-addon1">
+                            -
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          class="form-control border-0"
+                          placeholder=""
+                        />
+                        <div class="input-group-append">
+                          <button class="btn" type="button" id="button-addon2">
+                            +
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <button class="btn text-uppercase">Add</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="col-6 col-md-auto item-container">
                 <div class="item">
                   <img

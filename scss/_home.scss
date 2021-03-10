@@ -282,6 +282,17 @@ header {
       }
     }
   }
+  .marketplace-more {
+    h4 {
+      color: $green;
+      font-weight: 700;
+    }
+    a {
+      color: $green;
+      text-transform: none;
+      font-weight: 500;
+    }
+  }
 }
 
 .hot-deals {
