@@ -344,6 +344,7 @@ header {
   h3 {
     font-weight: 700;
     font-size: 36px;
+    color: $green;
   }
 
   small {
@@ -379,12 +380,13 @@ header {
     margin-bottom: 30px;
 
     .form-control {
-      height: 65px;
+      // height: 65px;
       border-radius: 0;
+      height: 40px;
     }
 
     button {
-      height: 65px;
+      height: 40px;
       border-radius: 0;
       border: 0;
       font-size: 22px;
@@ -392,6 +394,9 @@ header {
       padding-left: 20px;
       padding-right: 20px;
       letter-spacing: -2px;
+      display: flex;
+      align-items: center;
+      color: $green;
 
       &:hover {
         background: $green;
