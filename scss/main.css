@@ -1182,15 +1182,15 @@ header .delivery-status img {
   font-weight: 700;
 }
 
-.purchasing-cart .item-in-cart .cart-price-section strong {
-  font-size: 30px;
-}
-
-.purchasing-cart .item-in-cart .cart-price-section .btn {
+.purchasing-cart .item-in-cart .btn-save-later {
   background: #E8E8E8;
   font-size: 14px;
   font-weight: 600;
   border: 1px solid #B7B7B7;
+}
+
+.purchasing-cart .item-in-cart .cart-price-section strong {
+  font-size: 30px;
 }
 
 .purchasing-cart .item-in-cart .cart-price-section .input-group {
@@ -1201,10 +1201,12 @@ header .delivery-status img {
   background: #fff;
   border: 0;
   border-radius: 0;
+  font-size: 20px;
+  color: #43ab6c;
+  font-weight: bold;
 }
 
 .purchasing-cart .item-in-cart .cart-price-section .input-group .form-control {
-  height: 50px;
   border: 0;
 }
 
