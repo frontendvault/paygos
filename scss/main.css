@@ -1407,6 +1407,46 @@ header .delivery-status img {
   font-size: 20px;
 }
 
+#addToCart {
+  font-size: 24px;
+}
+
+#addToCart .cart-item {
+  border: 1px solid #E8E8E8;
+}
+
+#addToCart h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#addToCart h3 svg {
+  width: 30px;
+  margin-right: 10px;
+}
+
+#addToCart h3 svg path {
+  fill: #43ab6c;
+}
+
+#addToCart h4 {
+  color: #43ab6c;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+#addToCart .btn {
+  color: #fff;
+  background: #43ab6c;
+  font-weight: 600;
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .one-stop-shop h1 {
     font-size: 48px;

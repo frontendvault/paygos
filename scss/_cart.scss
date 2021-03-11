@@ -272,3 +272,33 @@
     font-size: 20px;
   }
 }
+
+#addToCart {
+  font-size: 24px;
+  .cart-item {
+    border: 1px solid $lightGrey;
+  }
+  h3 {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    svg {
+      width: 30px;
+      margin-right: 10px;
+      path {
+        fill: $green;
+      }
+    }
+  }
+  h4 {
+    color: $green;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .btn {
+    color: $white;
+    background: $green;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
