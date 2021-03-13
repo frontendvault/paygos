@@ -2277,6 +2277,42 @@ header .delivery-status img {
   }
 }
 
+.account-dashboard h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #43ab6c;
+}
+
+.account-dashboard h3 {
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  color: #43ab6c;
+  margin-bottom: 10px !important;
+}
+
+.account-dashboard p.subhead {
+  font-size: 18px;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+.account-dashboard .profile-page .btn {
+  background: #E8E8E8;
+  border: 1px solid #b7b7b7;
+  border-radius: 0;
+  font-weight: 500;
+  height: auto;
+  color: #000;
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+.account-dashboard .table td a {
+  color: #000;
+  text-decoration: underline;
+}
+
 html {
   scroll-behavior: smooth;
 }
