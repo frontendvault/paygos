@@ -2297,14 +2297,14 @@ header .delivery-status img {
   margin-bottom: 0;
 }
 
-.account-dashboard .profile-page .btn {
-  background: #E8E8E8;
+.account-dashboard .btn-sm-light {
+  background: #E8E8E8 !important;
   border: 1px solid #b7b7b7;
   border-radius: 0;
   font-weight: 500;
-  height: auto;
-  color: #000;
-  font-size: 12px;
+  height: auto !important;
+  color: #000 !important;
+  font-size: 12px !important;
   padding: 5px 15px;
 }
 
