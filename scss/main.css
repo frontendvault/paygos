@@ -1447,6 +1447,42 @@ header .delivery-status img {
   font-size: 18px;
 }
 
+.account-dashboard h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #43ab6c;
+}
+
+.account-dashboard h3 {
+  font-weight: 700 !important;
+  font-size: 32px !important;
+  color: #43ab6c;
+  margin-bottom: 10px !important;
+}
+
+.account-dashboard p.subhead {
+  font-size: 18px;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+.account-dashboard .btn-sm-light {
+  background: #E8E8E8 !important;
+  border: 1px solid #b7b7b7;
+  border-radius: 0;
+  font-weight: 500;
+  height: auto !important;
+  color: #000 !important;
+  font-size: 12px !important;
+  padding: 5px 15px;
+}
+
+.account-dashboard .table td a {
+  color: #000;
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .one-stop-shop h1 {
     font-size: 48px;
@@ -2275,42 +2311,17 @@ header .delivery-status img {
   .mobile-categories .active {
     color: #43ab6c;
   }
-}
-
-.account-dashboard h1 {
-  font-size: 60px;
-  font-weight: 700;
-  color: #43ab6c;
-}
-
-.account-dashboard h3 {
-  font-weight: 700 !important;
-  font-size: 32px !important;
-  color: #43ab6c;
-  margin-bottom: 10px !important;
-}
-
-.account-dashboard p.subhead {
-  font-size: 18px;
-  font-weight: 500;
-  color: #707070;
-  margin-bottom: 0;
-}
-
-.account-dashboard .btn-sm-light {
-  background: #E8E8E8 !important;
-  border: 1px solid #b7b7b7;
-  border-radius: 0;
-  font-weight: 500;
-  height: auto !important;
-  color: #000 !important;
-  font-size: 12px !important;
-  padding: 5px 15px;
-}
-
-.account-dashboard .table td a {
-  color: #000;
-  text-decoration: underline;
+  .sppadding-top-mobile {
+    padding-top: 30px !important;
+  }
+  .sppadding-top-mobile .help-page h4 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .account-dashboard h1,
+  .account-dashboard h3 {
+    font-size: 22px !important;
+  }
 }
 
 html {

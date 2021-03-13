@@ -768,4 +768,19 @@
       color: $green;
     }
   }
+  .sppadding-top-mobile {
+    padding-top: 30px !important;
+    .help-page {
+      h4 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .account-dashboard {
+    h1,
+    h3 {
+      font-size: 22px !important;
+    }
+  }
 }
