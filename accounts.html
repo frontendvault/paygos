@@ -489,7 +489,10 @@
           </div>
         </div>
         <div class="col-sm-9 col-lg-10 join-now">
-          <div class="tab-content reset-password" id="v-pills-tabContent">
+          <div
+            class="tab-content reset-password purchasing-cart"
+            id="v-pills-tabContent"
+          >
             <div
               class="tab-pane fade show active"
               id="v-pills-home"
@@ -634,15 +637,15 @@
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              class="tab-pane wizard-shipping-address fade"
               id="v-pills-profile"
               role="tabpanel"
               aria-labelledby="v-pills-profile-tab"
             >
               <div class="row">
-                <div class="col-md-12 mb-3"><h3>Order History</h3></div>
-                <div class="col-md-12">
-                  <div class="table-responsive">
+                <div class="col-md-12 mb-3"><h4>Order History</h4></div>
+                <div class="col-md-12 px-0">
+                  <div class="table-responsive p-0">
                     <table class="table table-borderless">
                       <thead class="border-bottom">
                         <tr>
@@ -700,65 +703,178 @@
               </div>
             </div>
             <div
-              class="tab-pane fade"
+              class="tab-pane wizard-shipping-address fade"
               id="v-pills-messages"
               role="tabpanel"
               aria-labelledby="v-pills-messages-tab"
             >
-              <div class="row">
-                <div class="col-md-12"><h3>Store Information</h3></div>
-                <div class="col-md-12">
-                  <form>
-                    <div class="form-row">
-                      <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Convenience Store Name"
-                          readonly
-                        />
+              <div class="col-md-9">
+                <div class="row">
+                  <div class="col-md-12"><h4>Store Information</h4></div>
+                  <div class="col-md-12">
+                    <form>
+                      <div class="form-row">
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Convenience Store Name"
+                            readonly
+                          />
+                        </div>
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Main Phone Number"
+                          />
+                        </div>
                       </div>
+                      <div class="form-row">
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Store Address"
+                          />
+                        </div>
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Suite/Unit/Facility Number"
+                          />
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="City"
+                          />
+                        </div>
+                        <div class="col">
+                          <select id="inputState" class="form-control">
+                            <option>Province...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Postal Code"
+                          />
+                        </div>
+                        <div class="col">
+                          <select id="inputState" class="form-control">
+                            <option>Country...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="col-md-12">
+                          <button class="btn btn-lg">SAVE CHANGES</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-12 mt-5">
+                    <div class="row">
                       <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Main Phone Number"
-                        />
+                        <h4>Email Address</h4>
+                        <p>
+                          After saving your new email, you will be signed out
+                          and prompted to sign in with your new email.
+                        </p>
                       </div>
                     </div>
-                    <div class="form-row">
-                      <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Store Address"
-                        />
+                    <form>
+                      <div class="form-row">
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Email Address"
+                          />
+                        </div>
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Main Phone Number"
+                          />
+                        </div>
+                        <div class="col-md-12">
+                          <button class="btn btn-lg">Save Changes</button>
+                        </div>
                       </div>
+                    </form>
+                  </div>
+                  <div class="col-md-12 mt-5">
+                    <div class="row">
                       <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Suite/Unit/Facility Number"
-                        />
+                        <h4>Password</h4>
                       </div>
                     </div>
-                    <div class="form-row">
-                      <div class="col">
+                    <form>
+                      <div class="form-row">
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Email Address"
+                          />
+                        </div>
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Main Phone Number"
+                          />
+                        </div>
+                        <div class="col-md-12">
+                          <button class="btn btn-lg">Save Changes</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane wizard-shipping-address fade"
+              id="v-pills-settings"
+              role="tabpanel"
+              aria-labelledby="v-pills-settings-tab"
+            >
+              <div class="col-xl-9">
+                <div class="row paygos-join w-100">
+                  <div class="col-xl-12 join-now mt-0">
+                    <div class="row">
+                      <div class="col"><h4>Shipping Addresses</h4></div>
+                    </div>
+                    <div class="row">
+                      <div
+                        class="col p-md-0 mt-0 bg-transparent profile-page shipping-address"
+                      >
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Name"
+                        />
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Address"
+                        />
                         <input
                           type="text"
                           class="form-control"
                           placeholder="City"
                         />
-                      </div>
-                      <div class="col">
-                        <select id="inputState" class="form-control">
-                          <option>Province...</option>
-                          <option>...</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="form-row">
-                      <div class="col">
                         <input
                           type="text"
                           class="form-control"
@@ -766,149 +882,40 @@
                         />
                       </div>
                       <div class="col">
-                        <select id="inputState" class="form-control">
-                          <option>Country...</option>
-                          <option>...</option>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Main Phone Number"
+                        />
+
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Suite/Unit/Facility Number"
+                        />
+                        <select name="" id="" class="form-control">
+                          <option value="">Province</option>
+                        </select>
+
+                        <select name="" id="" class="form-control">
+                          <option value="">Country</option>
                         </select>
                       </div>
                       <div class="col-md-12">
-                        <button class="btn btn-lg">SAVE CHANGES</button>
+                        <div class="custom-control custom-checkbox">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="customCheck1"
+                          />
+                          <label class="custom-control-label" for="customCheck1"
+                            >Use as default shipping address</label
+                          >
+                        </div>
+                        <button class="btn text-uppercase mt-5 btn-green">
+                          Add Address
+                        </button>
                       </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-md-12 mt-5">
-                  <div class="row">
-                    <div class="col">
-                      <h3>Email Address</h3>
-                      <p>
-                        After saving your new email, you will be signed out and
-                        prompted to sign in with your new email.
-                      </p>
-                    </div>
-                  </div>
-                  <form>
-                    <div class="form-row">
-                      <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Email Address"
-                        />
-                      </div>
-                      <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Main Phone Number"
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <button class="btn btn-lg">Save Changes</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-md-12 mt-5">
-                  <div class="row">
-                    <div class="col">
-                      <h3>Password</h3>
-                    </div>
-                  </div>
-                  <form>
-                    <div class="form-row">
-                      <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Email Address"
-                        />
-                      </div>
-                      <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Main Phone Number"
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <button class="btn btn-lg">Save Changes</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div
-              class="tab-pane fade"
-              id="v-pills-settings"
-              role="tabpanel"
-              aria-labelledby="v-pills-settings-tab"
-            >
-              <div class="row paygos-join w-100">
-                <div class="col-xl-12 join-now mt-0">
-                  <div class="row">
-                    <div class="col"><h3>Shipping Addresses</h3></div>
-                  </div>
-                  <div class="row">
-                    <div
-                      class="col p-md-0 mt-0 bg-transparent profile-page shipping-address"
-                    >
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                      />
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Address"
-                      />
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="City"
-                      />
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Postal Code"
-                      />
-                    </div>
-                    <div class="col">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Main Phone Number"
-                      />
-
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Suite/Unit/Facility Number"
-                      />
-                      <select name="" id="" class="form-control">
-                        <option value="">Province</option>
-                      </select>
-
-                      <select name="" id="" class="form-control">
-                        <option value="">Country</option>
-                      </select>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="custom-control custom-checkbox">
-                        <input
-                          type="checkbox"
-                          class="custom-control-input"
-                          id="customCheck1"
-                        />
-                        <label class="custom-control-label" for="customCheck1"
-                          >Use as default shipping address</label
-                        >
-                      </div>
-                      <button class="btn text-uppercase mt-5 btn-green">
-                        Add Address
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -920,22 +927,32 @@
               role="tabpanel"
               aria-labelledby="v-pills-payment-tab"
             >
-              <div class="container-fluid pt-3 pb-md-5 border-top">
+              <div class="container-fluid pt-3 pb-md-5">
                 <div class="container">
                   <div class="row">
-                    <div class="col purchasing-cart px-md-5">
+                    <div class="col px-md-5">
                       <div class="row">
                         <div class="col-md-12 item-in-cart">
                           <div class="row">
                             <div
-                              class="col-md-9 wizard-shipping-address pb-3 py-sm-5"
+                              class="col-md-9 wizard-shipping-address pb-3 pb-sm-5"
                             >
                               <div class="row">
                                 <div class="col">
-                                  <h4>Payment</h4>
+                                  <h4>Add a Payment Method</h4>
+                                  <img
+                                    src="images/credit-cards.png"
+                                    alt=""
+                                    class="mt-2 mb-4"
+                                  />
                                 </div>
                               </div>
                               <form>
+                                <div class="row">
+                                  <div class="col error-msg">
+                                    <p>Expiration month required</p>
+                                  </div>
+                                </div>
                                 <div class="row">
                                   <div class="col">
                                     <input
@@ -1012,10 +1029,17 @@
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col-md-9 payment-option-form">
+                            <div class="col-md-9 wizard-shipping-address">
                               <form>
-                                <div class="error-msg">
-                                  <strong>ERROR - INCORRECT POSTAL CODE</strong>
+                                <div class="row">
+                                  <div class="col">
+                                    <h4>Billing Address</h4>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col error-msg">
+                                    <p>Error - Incorrect City</p>
+                                  </div>
                                 </div>
                                 <div class="row">
                                   <div class="form-group col-xl-6">
@@ -1023,21 +1047,16 @@
                                       type="email"
                                       class="form-control"
                                       id="inputEmail4"
-                                      placeholder="First Name"
+                                      placeholder="Enter new billing address"
                                     />
-                                    <span class="asterisk d-none d-xl-flex"
-                                      >*</span
-                                    >
                                   </div>
-                                  <div class="form-group col-xl-6">
+                                  <div class="form-group col-xl-12">
                                     <input
                                       type="text"
                                       class="form-control"
                                       id="inputPassword4"
-                                      placeholder="Last Name"
-                                    /><span class="asterisk d-none d-xl-flex"
-                                      >*</span
-                                    >
+                                      placeholder="Address Line 1"
+                                    />
                                   </div>
                                 </div>
                                 <div class="row">
@@ -1046,77 +1065,90 @@
                                       type="text"
                                       class="form-control"
                                       id="inputAddress"
-                                      placeholder="1234 Main St"
-                                    /><span class="asterisk d-none d-xl-flex"
-                                      >*</span
-                                    >
-                                  </div>
-                                </div>
-                                <div class="row">
-                                  <div class="form-group col-xl-6">
-                                    <input
-                                      type="text"
-                                      class="form-control"
-                                      id="inputAddress2"
-                                      placeholder="Apartment, studio, or floor"
+                                      placeholder="Address Line 2 - Unit#, Apt#, Suite# (Optional)"
                                     />
-                                    <span class="asterisk d-none d-xl-flex"
-                                      >*</span
-                                    >
                                   </div>
+                                </div>
+
+                                <div class="row">
                                   <div class="form-group col-xl-6">
                                     <input
                                       type="text"
-                                      class="form-control"
-                                      id="inputCity"
-                                      placeholder="Toronto"
-                                    /><span class="asterisk d-none d-xl-flex"
-                                      >*</span
-                                    >
+                                      class="form-control error"
+                                      id="inputZip"
+                                      placeholder="TO"
+                                    />
                                   </div>
-                                </div>
-                                <div class="row">
                                   <div class="form-group col-xl-6">
                                     <select
                                       id="inputState"
                                       class="form-control"
                                     >
                                       <option selected>Province</option>
-                                      <option>...</option></select
-                                    ><span class="asterisk d-none d-xl-flex"
-                                      >*</span
-                                    >
-                                  </div>
-                                  <div class="form-group col-xl-6">
-                                    <input
-                                      type="text"
-                                      class="form-control error"
-                                      id="inputZip"
-                                      placeholder="2M51"
-                                    /><span class="asterisk d-none d-xl-flex"
-                                      >*</span
-                                    >
+                                      <option>...</option>
+                                    </select>
                                   </div>
                                 </div>
                                 <div class="row">
                                   <div class="form-group col-xl-6">
                                     <input
+                                      type="email"
+                                      class="form-control"
+                                      id="inputEmail4"
+                                      placeholder="Postal Code"
+                                    />
+                                  </div>
+                                  <div class="form-group col-xl-6">
+                                    <input
                                       type="text"
                                       class="form-control"
-                                      id="phoneNumber"
-                                      placeholder="647-123-4567"
-                                    /><span class="asterisk d-none d-xl-flex"
-                                      >*</span
+                                      id="inputPassword4"
+                                      placeholder="Phone Number"
+                                    />
+                                  </div>
+                                  <div class="form-group col-xl-12">
+                                    <div class="custom-control custom-checkbox">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        id="saveCard"
+                                      />
+                                      <label
+                                        class="custom-control-label font-weight-normal"
+                                        for="saveCard"
+                                        >Save Credit Card
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div class="form-group col-xl-12">
+                                    <div class="custom-control custom-checkbox">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        id="setDefault"
+                                      />
+                                      <label
+                                        class="custom-control-label font-weight-normal"
+                                        for="setDefault"
+                                      >
+                                        Save &amp; Set as Default Credit Card
+                                      </label>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12">
+                                    <button
+                                      class="btn btn-secondary px-3 rounded-0"
                                     >
+                                      CANCEL
+                                    </button>
+                                    <button
+                                      type="submit"
+                                      class="btn bg-green px-3 rounded-0"
+                                    >
+                                      REVIEW YOUR ORDER
+                                    </button>
                                   </div>
                                 </div>
-
-                                <button
-                                  type="submit"
-                                  class="btn btn-lg bg-green px-5 d-none d-sm-block"
-                                >
-                                  REVIEW YOUR ORDER
-                                </button>
                               </form>
                             </div>
                           </div>

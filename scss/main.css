@@ -1177,7 +1177,7 @@ header .delivery-status img {
   color: #43ab6c;
 }
 
-.purchasing-cart .item-in-cart h4 {
+.purchasing-cart h4 {
   font-size: 30px;
   font-weight: 700;
 }
@@ -1495,6 +1495,10 @@ header .delivery-status img {
 .account-tabs .nav-pills .nav-link.active {
   background-color: transparent;
   font-weight: 700;
+}
+
+.account-tabs .btn-green {
+  height: auto !important;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
