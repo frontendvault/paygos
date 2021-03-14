@@ -76,4 +76,14 @@
   .was-validated .custom-control-input:invalid ~ .custom-control-label {
     color: $dark;
   }
+  .table {
+    td {
+      a {
+        color: $black;
+      }
+    }
+  }
+  .tab-pane {
+    padding-bottom: 40px;
+  }
 }
