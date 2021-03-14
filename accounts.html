@@ -716,7 +716,7 @@
                     <h4 class="mb-3">Store Information</h4>
                   </div>
                   <div class="col-md-12">
-                    <form>
+                    <form class="needs-validation" novalidate>
                       <div class="form-row">
                         <div class="col">
                           <input
@@ -724,6 +724,7 @@
                             class="form-control"
                             placeholder="Convenience Store Name"
                             readonly
+                            required
                           />
                         </div>
                         <div class="col">
@@ -731,6 +732,7 @@
                             type="text"
                             class="form-control"
                             placeholder="Main Phone Number"
+                            required
                           />
                         </div>
                       </div>
@@ -740,6 +742,7 @@
                             type="text"
                             class="form-control"
                             placeholder="Store Address"
+                            required
                           />
                         </div>
                         <div class="col">
@@ -747,6 +750,7 @@
                             type="text"
                             class="form-control"
                             placeholder="Suite/Unit/Facility Number"
+                            required
                           />
                         </div>
                       </div>
@@ -755,11 +759,12 @@
                           <input
                             type="text"
                             class="form-control"
+                            required
                             placeholder="City"
                           />
                         </div>
                         <div class="col">
-                          <select id="inputState" class="form-control">
+                          <select id="inputState" class="form-control" required>
                             <option>Province...</option>
                             <option>...</option>
                           </select>
@@ -770,11 +775,12 @@
                           <input
                             type="text"
                             class="form-control"
+                            required
                             placeholder="Postal Code"
                           />
                         </div>
                         <div class="col">
-                          <select id="inputState" class="form-control">
+                          <select id="inputState" class="form-control" required>
                             <option>Country...</option>
                             <option>...</option>
                           </select>
@@ -795,13 +801,14 @@
                         </p>
                       </div>
                     </div>
-                    <form>
+                    <form class="needs-validation" novalidate>
                       <div class="form-row">
                         <div class="col">
                           <input
                             type="text"
                             class="form-control"
                             placeholder="Email Address"
+                            required
                           />
                         </div>
                         <div class="col">
@@ -809,6 +816,7 @@
                             type="text"
                             class="form-control"
                             placeholder="Main Phone Number"
+                            required
                           />
                         </div>
                         <div class="col-md-12">
@@ -823,13 +831,14 @@
                         <h4 class="mb-3">Password</h4>
                       </div>
                     </div>
-                    <form>
+                    <form class="needs-validation" novalidate>
                       <div class="form-row">
                         <div class="col">
                           <input
                             type="text"
                             class="form-control"
                             placeholder="Email Address"
+                            required
                           />
                         </div>
                         <div class="col">
@@ -837,6 +846,7 @@
                             type="text"
                             class="form-control"
                             placeholder="Main Phone Number"
+                            required
                           />
                         </div>
                         <div class="col-md-12">
@@ -862,67 +872,78 @@
                         <h4 class="mb-3">Shipping Addresses</h4>
                       </div>
                     </div>
-                    <div class="row">
-                      <div
-                        class="col p-md-0 mt-0 bg-transparent profile-page shipping-address"
-                      >
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Name"
-                        />
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Address"
-                        />
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="City"
-                        />
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Postal Code"
-                        />
-                      </div>
-                      <div class="col">
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Main Phone Number"
-                        />
-
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Suite/Unit/Facility Number"
-                        />
-                        <select name="" id="" class="form-control">
-                          <option value="">Province</option>
-                        </select>
-
-                        <select name="" id="" class="form-control">
-                          <option value="">Country</option>
-                        </select>
-                      </div>
-                      <div class="col-md-12 px-0">
-                        <div class="custom-control custom-checkbox">
+                    <form class="needs-validation" novalidate>
+                      <div class="row">
+                        <div
+                          class="col p-md-0 mt-0 bg-transparent profile-page shipping-address"
+                        >
                           <input
-                            type="checkbox"
-                            class="custom-control-input"
-                            id="customCheck1"
+                            type="text"
+                            class="form-control"
+                            placeholder="Name"
+                            required
                           />
-                          <label class="custom-control-label" for="customCheck1"
-                            >Use as default shipping address</label
-                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Address"
+                            required
+                          />
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="City"
+                            required
+                          />
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Postal Code"
+                            required
+                          />
                         </div>
-                        <button class="btn text-uppercase mt-5 btn-green">
-                          Add Address
-                        </button>
+                        <div class="col">
+                          <input
+                            type="text"
+                            class="form-control"
+                            required
+                            placeholder="Main Phone Number"
+                          />
+
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Suite/Unit/Facility Number"
+                            required
+                          />
+                          <select name="" id="" class="form-control" required>
+                            <option value="">Province</option>
+                          </select>
+
+                          <select name="" id="" class="form-control" required>
+                            <option value="">Country</option>
+                          </select>
+                        </div>
+                        <div class="col-md-12 px-0">
+                          <div class="custom-control custom-checkbox">
+                            <input
+                              type="checkbox"
+                              class="custom-control-input"
+                              id="customCheck1"
+                              required
+                            />
+                            <label
+                              class="custom-control-label"
+                              for="customCheck1"
+                              >Use as default shipping address</label
+                            >
+                          </div>
+                          <button class="btn text-uppercase mt-3 btn-green">
+                            Add Address
+                          </button>
+                        </div>
                       </div>
-                    </div>
+                    </form>
                   </div>
                 </div>
               </div>
@@ -953,7 +974,7 @@
                                   />
                                 </div>
                               </div>
-                              <form>
+                              <form class="needs-validation" novalidate>
                                 <div class="row">
                                   <div class="col error-msg">
                                     <p>Expiration month required</p>
@@ -965,6 +986,7 @@
                                       type="text"
                                       class="form-control"
                                       placeholder="Card Number"
+                                      required
                                     />
                                   </div>
                                 </div>
@@ -973,6 +995,7 @@
                                     <select
                                       id="selectMonth"
                                       class="form-control"
+                                      required
                                     >
                                       <option selected>MM</option>
                                       <option>...</option>
@@ -982,6 +1005,7 @@
                                     <select
                                       id="selectYear"
                                       class="form-control"
+                                      required
                                     >
                                       <option selected>YY</option>
                                       <option>...</option>
@@ -991,52 +1015,55 @@
                                     <input
                                       type="text"
                                       class="form-control"
+                                      required
                                       placeholder="CVV"
                                     />
                                   </div>
                                 </div>
-                                <form>
-                                  <div class="row">
-                                    <div class="col">
-                                      <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="First name"
-                                      />
-                                    </div>
-                                    <div class="col">
-                                      <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="Last name"
-                                      />
-                                    </div>
+
+                                <div class="row">
+                                  <div class="col">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="First name"
+                                      required
+                                    />
                                   </div>
-                                  <form>
-                                    <div class="row">
-                                      <div class="col">
-                                        <input
-                                          type="text"
-                                          class="form-control"
-                                          placeholder="Postal Code"
-                                        />
-                                      </div>
-                                      <div class="col">
-                                        <input
-                                          type="text"
-                                          class="form-control"
-                                          placeholder="Main Phone Number"
-                                        />
-                                      </div>
-                                    </div>
-                                  </form>
-                                </form>
+                                  <div class="col">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Last name"
+                                      required
+                                    />
+                                  </div>
+                                </div>
+
+                                <div class="row">
+                                  <div class="col">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Postal Code"
+                                      required
+                                    />
+                                  </div>
+                                  <div class="col">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      placeholder="Main Phone Number"
+                                      required
+                                    />
+                                  </div>
+                                </div>
                               </form>
                             </div>
                           </div>
                           <div class="row">
                             <div class="col-md-9 wizard-shipping-address">
-                              <form>
+                              <form class="needs-validation" novalidate>
                                 <div class="row">
                                   <div class="col">
                                     <h4>Billing Address</h4>
@@ -1048,11 +1075,12 @@
                                   </div>
                                 </div>
                                 <div class="row">
-                                  <div class="form-group col-xl-6">
+                                  <div class="form-group col-xl-12">
                                     <input
                                       type="email"
                                       class="form-control"
                                       id="inputEmail4"
+                                      required
                                       placeholder="Enter new billing address"
                                     />
                                   </div>
@@ -1062,6 +1090,7 @@
                                       class="form-control"
                                       id="inputPassword4"
                                       placeholder="Address Line 1"
+                                      required
                                     />
                                   </div>
                                 </div>
@@ -1072,6 +1101,7 @@
                                       class="form-control"
                                       id="inputAddress"
                                       placeholder="Address Line 2 - Unit#, Apt#, Suite# (Optional)"
+                                      required
                                     />
                                   </div>
                                 </div>
@@ -1083,12 +1113,14 @@
                                       class="form-control error"
                                       id="inputZip"
                                       placeholder="TO"
+                                      required
                                     />
                                   </div>
                                   <div class="form-group col-xl-6">
                                     <select
                                       id="inputState"
                                       class="form-control"
+                                      required
                                     >
                                       <option selected>Province</option>
                                       <option>...</option>
@@ -1100,6 +1132,7 @@
                                     <input
                                       type="email"
                                       class="form-control"
+                                      required
                                       id="inputEmail4"
                                       placeholder="Postal Code"
                                     />
@@ -1108,6 +1141,7 @@
                                     <input
                                       type="text"
                                       class="form-control"
+                                      required
                                       id="inputPassword4"
                                       placeholder="Phone Number"
                                     />
@@ -1118,6 +1152,7 @@
                                         type="checkbox"
                                         class="custom-control-input"
                                         id="saveCard"
+                                        required
                                       />
                                       <label
                                         class="custom-control-label"
@@ -1132,6 +1167,7 @@
                                         type="checkbox"
                                         class="custom-control-input"
                                         id="setDefault"
+                                        required
                                       />
                                       <label
                                         class="custom-control-label"
@@ -1189,5 +1225,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/form-validation.js"></script>
   </body>
 </html>

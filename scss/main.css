@@ -1515,6 +1515,13 @@ header .delivery-status img {
   margin-bottom: 10px;
 }
 
+.account-tabs .custom-control-input.is-valid ~ .custom-control-label,
+.account-tabs .was-validated .custom-control-input:valid ~ .custom-control-label,
+.account-tabs .custom-control-input.is-invalid ~ .custom-control-label,
+.account-tabs .was-validated .custom-control-input:invalid ~ .custom-control-label {
+  color: #707070;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .one-stop-shop h1 {
     font-size: 48px;

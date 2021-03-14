@@ -70,4 +70,10 @@
       margin-bottom: 10px;
     }
   }
+  .custom-control-input.is-valid ~ .custom-control-label,
+  .was-validated .custom-control-input:valid ~ .custom-control-label,
+  .custom-control-input.is-invalid ~ .custom-control-label,
+  .was-validated .custom-control-input:invalid ~ .custom-control-label {
+    color: $dark;
+  }
 }
