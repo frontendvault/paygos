@@ -37,3 +37,17 @@
     }
   }
 }
+.account-tabs {
+  .nav-pills {
+    .nav-link {
+      font-size: 18px;
+      color: $black;
+      font-weight: 500;
+      border-bottom: 1px solid $lightGrey;
+    }
+    .nav-link.active {
+      background-color: transparent;
+      font-weight: 700;
+    }
+  }
+}

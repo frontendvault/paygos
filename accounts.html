@@ -404,6 +404,28 @@
         </div>
       </div>
     </div>
+    <div class="container py-md-3">
+      <div class="row mt-md-0 d-none d-sm-flex">
+        <div class="col location">
+          <p>
+            <img src="images/mapPin_icon.svg" alt="" /> Corner Store
+            Convenience, 33 ABC Rd. Someplace. NB.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent">
+              <li class="breadcrumb-item"><a href="#">Home </a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Account Dashboard
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
     <div class="container account-tabs paygos-join">
       <div class="row">
         <div class="col-sm-3 col-lg-2">
@@ -454,7 +476,7 @@
               >Shipping Addresses
             </a>
             <a
-              class="nav-link"
+              class="nav-link border-0"
               id="v-pills-payment-tab"
               data-toggle="pill"
               href="#v-pills-payment"
@@ -467,7 +489,7 @@
           </div>
         </div>
         <div class="col-sm-9 col-lg-10 join-now">
-          <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-content reset-password" id="v-pills-tabContent">
             <div
               class="tab-pane fade show active"
               id="v-pills-home"
@@ -475,42 +497,16 @@
               aria-labelledby="v-pills-home-tab"
             >
               <div
-                class="container-fluid pt-3 pb-md-5 bg-light border-top reset-password mobile-margin-top account-dashboard"
+                class="container-fluid pt-3 pb-md-5 reset-password mobile-margin-top account-dashboard"
               >
                 <div class="container">
-                  <div class="row mt-md-0 d-none d-sm-flex">
-                    <div class="col location">
-                      <p>
-                        <img src="images/mapPin_icon.svg" alt="" /> Corner Store
-                        Convenience, 33 ABC Rd. Someplace. NB.
-                      </p>
-                    </div>
-                  </div>
                   <div class="row">
-                    <div class="col">
-                      <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb bg-transparent">
-                          <li class="breadcrumb-item"><a href="#">Home </a></li>
-                          <li
-                            class="breadcrumb-item active"
-                            aria-current="page"
-                          >
-                            Account Dashboard
-                          </li>
-                        </ol>
-                      </nav>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12 col-lg-12 mt-3">
+                    <div class="col-sm-12 col-lg-12">
                       <div
                         class="col join-now p-0 p-md-0 pb-lg-3 mt-0 bg-transparent profile-page shipping-address m-0"
                       >
                         <div
-                          class="row border-bottom py-2 py-md-4 align-items-center"
+                          class="row border-bottom py-2 pb-md-4 align-items-center"
                         >
                           <div class="col-md-12">
                             <h1 class="mb-3">Account Dashboard</h1>
@@ -932,65 +928,91 @@
                         <div class="col-md-12 item-in-cart">
                           <div class="row">
                             <div
-                              class="col wizard-shipping-address pb-3 py-sm-5"
+                              class="col-md-9 wizard-shipping-address pb-3 py-sm-5"
                             >
                               <div class="row">
                                 <div class="col">
                                   <h4>Payment</h4>
                                 </div>
                               </div>
-                              <div class="col-xl-6 border fill-card mt-3 mb-4">
+                              <form>
                                 <div class="row">
-                                  <div class="form-group col-7 px-0 mb-0">
+                                  <div class="col">
                                     <input
                                       type="text"
                                       class="form-control"
-                                      id="cardNumber"
                                       placeholder="Card Number"
                                     />
                                   </div>
-                                  <div class="form-group col-3 px-0 mb-0">
-                                    <input
-                                      type="text"
-                                      class="form-control text-center"
-                                      id="expiryDate"
-                                      placeholder="MM/YY"
-                                    />
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-3">
+                                    <select
+                                      id="selectMonth"
+                                      class="form-control"
+                                    >
+                                      <option selected>MM</option>
+                                      <option>...</option>
+                                    </select>
                                   </div>
-                                  <div class="form-group col-2 px-0 mb-0">
+                                  <div class="col-md-3">
+                                    <select
+                                      id="selectYear"
+                                      class="form-control"
+                                    >
+                                      <option selected>YY</option>
+                                      <option>...</option>
+                                    </select>
+                                  </div>
+                                  <div class="col-md-3">
                                     <input
                                       type="text"
-                                      class="form-control text-center"
-                                      id="cvvNumber"
+                                      class="form-control"
                                       placeholder="CVV"
                                     />
                                   </div>
                                 </div>
-                              </div>
-                              <div class="row justify-content-xl-between">
-                                <div class="col-sm-6 col-xl-auto">
-                                  <h5 class="font-weight-bold">
-                                    Billing Address
-                                  </h5>
-                                  <p class="location">
-                                    <strong class="d-block"
-                                      >Ship to store address</strong
-                                    >
-                                    <img src="images/mapPin_icon.svg" alt="" />
-                                    Corner Store Convenience <br />
-                                    33 ABC Rd. Someplace. NB.
-                                  </p>
-                                  <button
-                                    class="btn btn-sm bg-light border font-weight-bold rounded-0"
-                                  >
-                                    Change
-                                  </button>
-                                </div>
-                              </div>
+                                <form>
+                                  <div class="row">
+                                    <div class="col">
+                                      <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="First name"
+                                      />
+                                    </div>
+                                    <div class="col">
+                                      <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Last name"
+                                      />
+                                    </div>
+                                  </div>
+                                  <form>
+                                    <div class="row">
+                                      <div class="col">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Postal Code"
+                                        />
+                                      </div>
+                                      <div class="col">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Main Phone Number"
+                                        />
+                                      </div>
+                                    </div>
+                                  </form>
+                                </form>
+                              </form>
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col payment-option-form">
+                            <div class="col-md-9 payment-option-form">
                               <form>
                                 <div class="error-msg">
                                   <strong>ERROR - INCORRECT POSTAL CODE</strong>

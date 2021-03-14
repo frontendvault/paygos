@@ -140,8 +140,10 @@
       background: $lightGrey;
       border: 1px solid $mediumGrey;
       border-radius: 0;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: 500;
+      height: auto;
+      color: $black;
     }
     .mobile-heading-big {
       font-size: 30px;

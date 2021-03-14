@@ -1286,8 +1286,10 @@ header .delivery-status img {
   background: #E8E8E8;
   border: 1px solid #B7B7B7;
   border-radius: 0;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
+  height: auto;
+  color: #000;
 }
 
 .help-page-section .help-page .mobile-heading-big {
@@ -1481,6 +1483,18 @@ header .delivery-status img {
 .account-dashboard .table td a {
   color: #000;
   text-decoration: underline;
+}
+
+.account-tabs .nav-pills .nav-link {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.account-tabs .nav-pills .nav-link.active {
+  background-color: transparent;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
