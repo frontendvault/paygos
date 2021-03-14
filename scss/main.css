@@ -1497,8 +1497,22 @@ header .delivery-status img {
   font-weight: 700;
 }
 
-.account-tabs .btn-green {
-  height: auto !important;
+.account-tabs .wizard-shipping-address .custom-control-label {
+  font-weight: 500;
+}
+
+.account-tabs .wizard-shipping-address .btn {
+  height: auto;
+  font-size: 20px;
+  margin-right: 10px;
+  letter-spacing: -0.5px;
+}
+
+.account-tabs .error-msg p {
+  font-size: 14px;
+  color: #DD2626CB;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {

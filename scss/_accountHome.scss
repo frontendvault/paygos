@@ -50,7 +50,24 @@
       font-weight: 700;
     }
   }
-  .btn-green {
-    height: auto !important;
+
+  .wizard-shipping-address {
+    .custom-control-label {
+      font-weight: 500;
+    }
+    .btn {
+      height: auto;
+      font-size: 20px;
+      margin-right: 10px;
+      letter-spacing: -0.5px;
+    }
+  }
+  .error-msg {
+    p {
+      font-size: 14px;
+      color: $red;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
   }
 }
