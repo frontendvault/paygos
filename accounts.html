@@ -404,7 +404,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container account-tabs paygos-join">
       <div class="row">
         <div class="col-sm-3 col-lg-2">
           <div
@@ -451,7 +451,7 @@
               role="tab"
               aria-controls="v-pills-settings"
               aria-selected="false"
-              >Shipping Addresses Payment Methods
+              >Shipping Addresses
             </a>
             <a
               class="nav-link"
@@ -466,7 +466,7 @@
             </a>
           </div>
         </div>
-        <div class="col-sm-9 col-lg-10">
+        <div class="col-sm-9 col-lg-10 join-now">
           <div class="tab-content" id="v-pills-tabContent">
             <div
               class="tab-pane fade show active"
@@ -709,7 +709,139 @@
               role="tabpanel"
               aria-labelledby="v-pills-messages-tab"
             >
-              ...
+              <div class="row">
+                <div class="col-md-12"><h3>Store Information</h3></div>
+                <div class="col-md-12">
+                  <form>
+                    <div class="form-row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Convenience Store Name"
+                          readonly
+                        />
+                      </div>
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Main Phone Number"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Store Address"
+                        />
+                      </div>
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Suite/Unit/Facility Number"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="City"
+                        />
+                      </div>
+                      <div class="col">
+                        <select id="inputState" class="form-control">
+                          <option>Province...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Postal Code"
+                        />
+                      </div>
+                      <div class="col">
+                        <select id="inputState" class="form-control">
+                          <option>Country...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-md-12">
+                        <button class="btn btn-lg">SAVE CHANGES</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-12 mt-5">
+                  <div class="row">
+                    <div class="col">
+                      <h3>Email Address</h3>
+                      <p>
+                        After saving your new email, you will be signed out and
+                        prompted to sign in with your new email.
+                      </p>
+                    </div>
+                  </div>
+                  <form>
+                    <div class="form-row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email Address"
+                        />
+                      </div>
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Main Phone Number"
+                        />
+                      </div>
+                      <div class="col-md-12">
+                        <button class="btn btn-lg">Save Changes</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-12 mt-5">
+                  <div class="row">
+                    <div class="col">
+                      <h3>Password</h3>
+                    </div>
+                  </div>
+                  <form>
+                    <div class="form-row">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email Address"
+                        />
+                      </div>
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Main Phone Number"
+                        />
+                      </div>
+                      <div class="col-md-12">
+                        <button class="btn btn-lg">Save Changes</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -717,7 +849,74 @@
               role="tabpanel"
               aria-labelledby="v-pills-settings-tab"
             >
-              ...
+              <div class="row paygos-join w-100">
+                <div class="col-xl-12 join-now mt-0">
+                  <div class="row">
+                    <div class="col"><h3>Shipping Addresses</h3></div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col p-md-0 mt-0 bg-transparent profile-page shipping-address"
+                    >
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                      />
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Address"
+                      />
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="City"
+                      />
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Postal Code"
+                      />
+                    </div>
+                    <div class="col">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Main Phone Number"
+                      />
+
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Suite/Unit/Facility Number"
+                      />
+                      <select name="" id="" class="form-control">
+                        <option value="">Province</option>
+                      </select>
+
+                      <select name="" id="" class="form-control">
+                        <option value="">Country</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="custom-control custom-checkbox">
+                        <input
+                          type="checkbox"
+                          class="custom-control-input"
+                          id="customCheck1"
+                        />
+                        <label class="custom-control-label" for="customCheck1"
+                          >Use as default shipping address</label
+                        >
+                      </div>
+                      <button class="btn text-uppercase mt-5 btn-green">
+                        Add Address
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div
               class="tab-pane fade"
@@ -725,7 +924,186 @@
               role="tabpanel"
               aria-labelledby="v-pills-payment-tab"
             >
-              payment
+              <div class="container-fluid pt-3 pb-md-5 border-top">
+                <div class="container">
+                  <div class="row">
+                    <div class="col purchasing-cart px-md-5">
+                      <div class="row">
+                        <div class="col-md-12 item-in-cart">
+                          <div class="row">
+                            <div
+                              class="col wizard-shipping-address pb-3 py-sm-5"
+                            >
+                              <div class="row">
+                                <div class="col">
+                                  <h4>Payment</h4>
+                                </div>
+                              </div>
+                              <div class="col-xl-6 border fill-card mt-3 mb-4">
+                                <div class="row">
+                                  <div class="form-group col-7 px-0 mb-0">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="cardNumber"
+                                      placeholder="Card Number"
+                                    />
+                                  </div>
+                                  <div class="form-group col-3 px-0 mb-0">
+                                    <input
+                                      type="text"
+                                      class="form-control text-center"
+                                      id="expiryDate"
+                                      placeholder="MM/YY"
+                                    />
+                                  </div>
+                                  <div class="form-group col-2 px-0 mb-0">
+                                    <input
+                                      type="text"
+                                      class="form-control text-center"
+                                      id="cvvNumber"
+                                      placeholder="CVV"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row justify-content-xl-between">
+                                <div class="col-sm-6 col-xl-auto">
+                                  <h5 class="font-weight-bold">
+                                    Billing Address
+                                  </h5>
+                                  <p class="location">
+                                    <strong class="d-block"
+                                      >Ship to store address</strong
+                                    >
+                                    <img src="images/mapPin_icon.svg" alt="" />
+                                    Corner Store Convenience <br />
+                                    33 ABC Rd. Someplace. NB.
+                                  </p>
+                                  <button
+                                    class="btn btn-sm bg-light border font-weight-bold rounded-0"
+                                  >
+                                    Change
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col payment-option-form">
+                              <form>
+                                <div class="error-msg">
+                                  <strong>ERROR - INCORRECT POSTAL CODE</strong>
+                                </div>
+                                <div class="row">
+                                  <div class="form-group col-xl-6">
+                                    <input
+                                      type="email"
+                                      class="form-control"
+                                      id="inputEmail4"
+                                      placeholder="First Name"
+                                    />
+                                    <span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                  <div class="form-group col-xl-6">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="inputPassword4"
+                                      placeholder="Last Name"
+                                    /><span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="form-group col">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="inputAddress"
+                                      placeholder="1234 Main St"
+                                    /><span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="form-group col-xl-6">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="inputAddress2"
+                                      placeholder="Apartment, studio, or floor"
+                                    />
+                                    <span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                  <div class="form-group col-xl-6">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="inputCity"
+                                      placeholder="Toronto"
+                                    /><span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="form-group col-xl-6">
+                                    <select
+                                      id="inputState"
+                                      class="form-control"
+                                    >
+                                      <option selected>Province</option>
+                                      <option>...</option></select
+                                    ><span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                  <div class="form-group col-xl-6">
+                                    <input
+                                      type="text"
+                                      class="form-control error"
+                                      id="inputZip"
+                                      placeholder="2M51"
+                                    /><span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="form-group col-xl-6">
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="phoneNumber"
+                                      placeholder="647-123-4567"
+                                    /><span class="asterisk d-none d-xl-flex"
+                                      >*</span
+                                    >
+                                  </div>
+                                </div>
+
+                                <button
+                                  type="submit"
+                                  class="btn btn-lg bg-green px-5 d-none d-sm-block"
+                                >
+                                  REVIEW YOUR ORDER
+                                </button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
