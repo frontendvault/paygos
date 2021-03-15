@@ -341,4 +341,32 @@
     border-bottom: 1px solid $mediumGrey;
     padding-bottom: 30px;
   }
+  .reset-password {
+    .table-responsive {
+      .table {
+        td,
+        th {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .account-dashboard {
+    h1 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 24px !important;
+    }
+  }
+  .help-page-section {
+    .help-page {
+      h4 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
 }

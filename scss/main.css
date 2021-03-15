@@ -1746,6 +1746,22 @@ header .delivery-status img {
     border-bottom: 1px solid #B7B7B7;
     padding-bottom: 30px;
   }
+  .reset-password .table-responsive .table td,
+  .reset-password .table-responsive .table th {
+    font-size: 16px;
+  }
+  .account-dashboard h1 {
+    font-size: 40px;
+  }
+  .account-dashboard h3 {
+    font-size: 24px !important;
+  }
+  .help-page-section .help-page h4 {
+    font-size: 20px;
+  }
+  .help-page-section .help-page p {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
