@@ -2385,6 +2385,13 @@ header .delivery-status img {
   .account-dashboard h3 {
     font-size: 22px !important;
   }
+  .account-tabs .tab-content {
+    margin-top: 40px;
+  }
+  .account-tabs .tab-content h4 {
+    margin: 0 0 20px !important;
+    width: 100%;
+  }
 }
 
 html {
