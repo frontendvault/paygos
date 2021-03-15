@@ -794,4 +794,14 @@
     .paygos-join {
     }
   }
+  .review-cart {
+    h3 {
+      color: $green;
+      font-size: 28px;
+      font-weight: 600;
+    }
+    .item-in-cart {
+      border-right: 0 !important;
+    }
+  }
 }

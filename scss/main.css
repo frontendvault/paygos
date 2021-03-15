@@ -1449,6 +1449,13 @@ header .delivery-status img {
   font-size: 18px;
 }
 
+.review-cart h3 {
+  color: #43ab6c;
+  font-size: 28px;
+  font-weight: 600;
+  font-weight: bold;
+}
+
 .account-dashboard h1 {
   font-size: 60px;
   font-weight: 700;
@@ -2391,6 +2398,14 @@ header .delivery-status img {
   .account-tabs .tab-content h4 {
     margin: 0 0 20px !important;
     width: 100%;
+  }
+  .review-cart h3 {
+    color: #43ab6c;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .review-cart .item-in-cart {
+    border-right: 0 !important;
   }
 }
 
