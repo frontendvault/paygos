@@ -802,6 +802,10 @@
     }
     .item-in-cart {
       border-right: 0 !important;
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+      }
     }
   }
 }

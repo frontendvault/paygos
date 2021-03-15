@@ -1456,6 +1456,11 @@ header .delivery-status img {
   font-weight: bold;
 }
 
+.review-cart h5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .account-dashboard h1 {
   font-size: 60px;
   font-weight: 700;
@@ -2406,6 +2411,10 @@ header .delivery-status img {
   }
   .review-cart .item-in-cart {
     border-right: 0 !important;
+  }
+  .review-cart .item-in-cart h3 {
+    font-size: 24px;
+    font-weight: 700;
   }
 }
 
