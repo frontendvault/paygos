@@ -90,7 +90,7 @@
 }
 
 .order-process .order-process-steps {
-  width: 500px;
+  width: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,7 +129,7 @@
 }
 
 .order-process .order-process-steps .fill:after {
-  content: '';
+  content: "";
   display: block;
   width: 14px;
   height: 24px;
@@ -1774,6 +1774,24 @@ header .delivery-status img {
   .help-page-section .help-page p {
     font-size: 16px;
   }
+  .order-process .order-process-steps {
+    width: 390px;
+  }
+  .order-process .order-process-steps .step {
+    width: 40px;
+    height: 40px;
+  }
+  .order-process .order-process-steps .step-blank h4 {
+    font-size: 20px;
+  }
+  .order-process .order-process-steps .fill:after {
+    width: 10px;
+    height: 17px;
+  }
+  .order-process .order-process-steps .step-small {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -2345,7 +2363,7 @@ header .delivery-status img {
     height: 50px;
   }
   .order-summary {
-    border-right: 0;
+    border-right: 0 !important;
   }
   .order-process .order-process-steps {
     width: 350px;
