@@ -2427,10 +2427,10 @@ header .delivery-status img {
     font-size: 28px;
     font-weight: 600;
   }
-  .review-cart .item-in-cart {
+  .item-in-cart {
     border-right: 0 !important;
   }
-  .review-cart .item-in-cart h3 {
+  .item-in-cart h3 {
     font-size: 24px;
     font-weight: 700;
   }
