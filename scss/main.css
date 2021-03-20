@@ -188,6 +188,14 @@
           box-shadow: inset 0 -1px 0 #fff;
 }
 
+.error-msg {
+  margin: 10px 0;
+}
+
+.error-msg strong {
+  color: #DD2626CB;
+}
+
 .payment-option-form form .error-msg {
   margin: 10px 0;
 }
