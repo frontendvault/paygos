@@ -159,6 +159,8 @@ header {
       border-radius: 50%;
       border: 0;
       opacity: 0.5;
+      opacity: 1;
+      margin-right: 10px;
     }
 
     .active {
@@ -197,7 +199,7 @@ header {
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     color: $green;
     margin-bottom: 36px;
@@ -229,7 +231,8 @@ header {
       }
 
       del {
-        color: $grey;
+        color: $black;
+        font-size: 14px;
       }
 
       &:hover {
@@ -286,6 +289,7 @@ header {
     h4 {
       color: $green;
       font-weight: 700;
+      font-size: 32px;
     }
     a {
       color: $green;
@@ -466,7 +470,7 @@ header {
 .market-filter {
   .item-container {
     .item {
-      max-width: 252px;
+      max-width: 98%;
     }
   }
   .serp-page {

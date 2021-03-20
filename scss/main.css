@@ -828,6 +828,8 @@ header .delivery-status img {
   border-radius: 50%;
   border: 0;
   opacity: 0.5;
+  opacity: 1;
+  margin-right: 10px;
 }
 
 .main-sliding-banner .carousel-indicators .active {
@@ -859,7 +861,7 @@ header .delivery-status img {
 }
 
 .category-shop h2 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   color: #43ab6c;
   margin-bottom: 36px;
@@ -897,7 +899,8 @@ header .delivery-status img {
 }
 
 .category-shop .item-container .item del {
-  color: #A3A3A3;
+  color: #000;
+  font-size: 14px;
 }
 
 .category-shop .item-container .item:hover {
@@ -960,6 +963,7 @@ header .delivery-status img {
 .category-shop .marketplace-more h4 {
   color: #43ab6c;
   font-weight: 700;
+  font-size: 32px;
 }
 
 .category-shop .marketplace-more a {
@@ -1128,7 +1132,7 @@ header .delivery-status img {
 }
 
 .market-filter .item-container .item {
-  max-width: 252px;
+  max-width: 98%;
 }
 
 .market-filter .serp-page .item-container .item {
