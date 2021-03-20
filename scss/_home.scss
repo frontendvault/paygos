@@ -298,6 +298,28 @@ header {
       font-weight: 500;
     }
   }
+  .search-all-orders {
+    .input-group {
+      height: 48px;
+      .form-control {
+        height: 100%;
+        &::placeholder {
+          color: $mediumGrey;
+        }
+      }
+      .input-group-append {
+        .btn {
+          height: 100%;
+          svg {
+            width: 17px;
+            path {
+              fill: $green;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .hot-deals {

@@ -972,6 +972,42 @@ header .delivery-status img {
   font-weight: 500;
 }
 
+.category-shop .search-all-orders .input-group {
+  height: 48px;
+}
+
+.category-shop .search-all-orders .input-group .form-control {
+  height: 100%;
+}
+
+.category-shop .search-all-orders .input-group .form-control::-webkit-input-placeholder {
+  color: #B7B7B7;
+}
+
+.category-shop .search-all-orders .input-group .form-control:-ms-input-placeholder {
+  color: #B7B7B7;
+}
+
+.category-shop .search-all-orders .input-group .form-control::-ms-input-placeholder {
+  color: #B7B7B7;
+}
+
+.category-shop .search-all-orders .input-group .form-control::placeholder {
+  color: #B7B7B7;
+}
+
+.category-shop .search-all-orders .input-group .input-group-append .btn {
+  height: 100%;
+}
+
+.category-shop .search-all-orders .input-group .input-group-append .btn svg {
+  width: 17px;
+}
+
+.category-shop .search-all-orders .input-group .input-group-append .btn svg path {
+  fill: #43ab6c;
+}
+
 .hot-deals {
   background: #fff;
 }
