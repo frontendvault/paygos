@@ -36,6 +36,11 @@ body {
   border-radius: 0;
 }
 
+.small-icon {
+  img {
+    width: 30px;
+  }
+}
 .bg-green {
   background: $green;
 }

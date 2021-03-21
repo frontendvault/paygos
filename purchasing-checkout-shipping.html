@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <title>Purchasing Checkout</title>
+  </head>
+
+  <body>
+    <div class="container-fluid top-bar">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col px-2 px-md-0 d-flex align-items-center justify-content-between"
+          >
+            <div class="col-auto">
+              <select
+                class="form-control bg-transparent border-0 text-white"
+                id="exampleFormControlSelect1"
+              >
+                <option>English</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <h4><span> Free Shipping on your first two orders</span></h4>
+            <nav class="nav">
+              <a href="#" class="nav-link">Account</a>
+              <a href="#" class="nav-link">Logout</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid cart-wizard-header py-xl-3">
+      <div class="container">
+        <div class="row justify-content-md-between align-items-md-center">
+          <div class="col-sm-3 col-xl-2 d-none d-sm-flex">
+            <img
+              src="images/paygos_full_colour_logo.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-12 order-2 order-sm-1 wizard-control">
+            <div class="row">
+              <div class="bg-line col-md-10 offset-md-1"></div>
+              <div class="col">
+                <div class="circle-blank circle-fill">1</div>
+                <h4>Shipping</h4>
+              </div>
+              <div class="col">
+                <div class="circle-blank">2</div>
+                <h4>Payment</h4>
+              </div>
+              <div class="col px-0">
+                <div class="circle-blank">3</div>
+                <h4>Review &amp; Submit</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 offset-2 offset-sm-0 text-right col-sm-4 col-xl-auto order-1 order-sm-2 secure-checkout text-md-right"
+          >
+            <h3>
+              Secure Checkout
+              <img src="images/secure-checkout.png" class="img-fluid" alt="" />
+            </h3>
+            <img src="images/credit-cards.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid pt-3 pb-md-5 border-top purchasing-checkout-shipping"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col purchasing-cart">
+            <div class="row">
+              <div class="col-md-12 border-sm item-in-cart">
+                <div class="row">
+                  <div class="col-md-12 d-block d-sm-none mb-3">
+                    <button
+                      class="btn btn-sm bg-light border font-weight-bold rounded-0"
+                    >
+                      Back
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col wizard-shipping-address pb-sm-5">
+                    <div class="row justify-content-xl-between">
+                      <div class="col-md-6">
+                        <small class="location">
+                          <img src="images/mapPin_icon.svg" alt="" /> Corner
+                          Store Convenience 33 ABC Rd. Someplace. NB.
+                        </small>
+                      </div>
+                      <div class="col-md-6 small-icon">
+                        <small>
+                          <img
+                            src="images/shipping-van.png"
+                            class="img-fluid"
+                            alt=""
+                          />
+                          Order before 6:00 PM ET, receive by Tuesday December
+                          22</small
+                        >
+                      </div>
+                      <div class="col-sm-6 col-xl-auto mt-4">
+                        <h4>Shipping</h4>
+                        <p>
+                          Is the address you’d like to use displayed below? If
+                          so, click the corresponding “Ship to this address”
+                          button. <br />
+                          Or you can enter a new shipping address: Add a new
+                          address below.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row mt-3 border-top pt-4">
+                      <div class="col-md-12">
+                        <p class="location">
+                          Corner Store Convenience <br />
+                          33 ABC Rd. Someplace. NB.
+                        </p>
+                        <button
+                          class="btn btn-sm bg-light border rounded-0 mr-2"
+                        >
+                          <small>Edit</small>
+                        </button>
+                        <button class="btn btn-sm bg-light border rounded-0">
+                          <small>Ship to this address</small>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col add-new-address col-md-8 mb-4">
+                <form class="needs-validation" novalidate>
+                  <div class="row">
+                    <div class="col"><h4 class="mb-4">Add new address</h4></div>
+                  </div>
+                  <div class="row">
+                    <div class="col mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Address"
+                        required
+                      />
+                    </div>
+                    <div class="col mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Suite/Unit/Facility Number"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="City"
+                        required
+                      />
+                    </div>
+                    <div class="col mb-3">
+                      <select name="" class="form-control" id="" required>
+                        <option value="">Province</option>
+                        <option value="">US</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col mb-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Postal Code"
+                        required
+                      />
+                    </div>
+                    <div class="col mb-3">
+                      <select name="" class="form-control" required id="">
+                        <option value="">Country</option>
+                        <option value="">US</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col">
+                      <button class="btn btn-lg px-5">ADD ADDRESS</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid">
+      <a class="move-top d-none d-sm-block" href="#">
+        <img src="images/arrow-top.png" alt=""
+      /></a>
+      <div class="container">
+        <nav class="nav">
+          <a class="nav-link active" href="about.html">About</a>
+          <a class="nav-link" href="account-home.html"> Help</a>
+          <a class="nav-link" href="privacy.html"> Privacy</a>
+          <a class="nav-link border-right-0" href="terms.html"> Terms</a>
+        </nav>
+        <p>&copy; Paygos 2020</p>
+
+        <img src="images/chat_icon.png" alt="" class="chat-icon" />
+      </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/form-validation.js"></script>
+  </body>
+</html>

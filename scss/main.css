@@ -1509,6 +1509,25 @@ header .delivery-status img {
   font-weight: 600;
 }
 
+.purchasing-checkout-shipping h4 {
+  font-size: 32px;
+  color: #43ab6c;
+}
+
+.purchasing-checkout-shipping form .form-control {
+  height: 60px;
+  border-radius: 0;
+}
+
+.purchasing-checkout-shipping .btn-lg {
+  height: 60px;
+  background-color: #43ab6c;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0;
+  color: #fff;
+}
+
 .account-dashboard h1 {
   font-size: 60px;
   font-weight: 700;
@@ -2506,6 +2525,10 @@ body {
 .btn-green {
   background-color: #43ab6c;
   border-radius: 0;
+}
+
+.small-icon img {
+  width: 30px;
 }
 
 .bg-green {

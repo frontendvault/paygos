@@ -315,3 +315,24 @@
     font-weight: 600;
   }
 }
+
+.purchasing-checkout-shipping {
+  h4 {
+    font-size: 32px;
+    color: $green;
+  }
+  form {
+    .form-control {
+      height: 60px;
+      border-radius: 0;
+    }
+  }
+  .btn-lg {
+    height: 60px;
+    background-color: $green;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0;
+    color: $white;
+  }
+}
