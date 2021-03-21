@@ -341,13 +341,16 @@
       line-height: 16px;
     }
   }
-  .add-new-address {
-    h4 {
-      font-size: 20px;
+  .custom-checkbox {
+    .custom-control-label {
+      &::before {
+        border-radius: 0;
+      }
     }
-    .form-control {
-      height: 45px;
-      font-size: 14px;
-    }
+  }
+  .custom-checkbox
+    .custom-control-input:checked
+    ~ .custom-control-label::after {
+    background-color: $green;
   }
 }

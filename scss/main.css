@@ -1533,13 +1533,14 @@ header .delivery-status img {
   line-height: 16px;
 }
 
-.purchasing-checkout-shipping .add-new-address h4 {
-  font-size: 20px;
+.purchasing-checkout-shipping .custom-checkbox .custom-control-label::before {
+  border-radius: 0;
 }
 
-.purchasing-checkout-shipping .add-new-address .form-control {
-  height: 45px;
-  font-size: 14px;
+.purchasing-checkout-shipping .custom-checkbox
+.custom-control-input:checked
+~ .custom-control-label::after {
+  background-color: #43ab6c;
 }
 
 .account-dashboard h1 {
@@ -2514,6 +2515,13 @@ header .delivery-status img {
   .item-in-cart h3 {
     font-size: 24px;
     font-weight: 700;
+  }
+  .purchasing-checkout-shipping .add-new-address h4 {
+    font-size: 20px;
+  }
+  .purchasing-checkout-shipping .add-new-address .form-control {
+    height: 45px;
+    font-size: 14px;
   }
 }
 
