@@ -1528,6 +1528,20 @@ header .delivery-status img {
   color: #fff;
 }
 
+.purchasing-checkout-shipping .wizard-shipping-address p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.purchasing-checkout-shipping .add-new-address h4 {
+  font-size: 20px;
+}
+
+.purchasing-checkout-shipping .add-new-address .form-control {
+  height: 45px;
+  font-size: 14px;
+}
+
 .account-dashboard h1 {
   font-size: 60px;
   font-weight: 700;

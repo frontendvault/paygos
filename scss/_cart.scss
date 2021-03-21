@@ -335,4 +335,19 @@
     border-radius: 0;
     color: $white;
   }
+  .wizard-shipping-address {
+    p {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .add-new-address {
+    h4 {
+      font-size: 20px;
+    }
+    .form-control {
+      height: 45px;
+      font-size: 14px;
+    }
+  }
 }
