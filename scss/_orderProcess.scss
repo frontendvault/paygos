@@ -38,6 +38,11 @@
         margin-top: 5px;
       }
     }
+    .checked-green {
+      h4 {
+        color: $green;
+      }
+    }
 
     .fill {
       background: $green;

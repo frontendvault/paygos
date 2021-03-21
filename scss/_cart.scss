@@ -354,3 +354,12 @@
     background-color: $green;
   }
 }
+.border-item {
+  height: 153px;
+  width: 153px;
+  border: 1px solid $lightGrey;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
