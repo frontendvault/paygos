@@ -678,7 +678,7 @@ header {
 }
 
 header .input-group {
-  width: 500px;
+  width: 600px;
   height: 48px;
 }
 
@@ -1593,7 +1593,11 @@ header .delivery-status img {
   padding: 5px 15px;
 }
 
-.account-dashboard .table td a {
+.account-dashboard .table-responsive .table td {
+  padding: 5px;
+}
+
+.account-dashboard .table-responsive .table td a {
   color: #000;
   text-decoration: underline;
 }
