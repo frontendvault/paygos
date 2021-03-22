@@ -92,22 +92,31 @@
                     </button>
                   </div>
                 </div>
+                <div class="row px-md-3 mt-md-0 d-none d-sm-flex">
+                  <div class="col location">
+                    <p>
+                      <img src="images/mapPin_icon.svg" alt="" /> Corner Store
+                      Convenience, 33 ABC Rd. Someplace. NB.
+                    </p>
+                  </div>
+                </div>
+                <div class="row px-md-3 d-none d-sm-flex">
+                  <div class="col">
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb bg-transparent">
+                        <li class="breadcrumb-item"><a href="#">Home </a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                          Cart
+                        </li>
+                      </ol>
+                    </nav>
+                  </div>
+                </div>
                 <div class="row">
-                  <div class="col wizard-shipping-address py-sm-5">
+                  <div class="col wizard-shipping-address">
                     <div class="row justify-content-xl-between">
                       <div class="col-sm-6 col-xl-auto">
-                        <h4>Shipping</h4>
-                        <p class="location">
-                          <strong class="d-block">Ship to store address</strong>
-                          <img src="images/mapPin_icon.svg" alt="" /> Corner
-                          Store Convenience <br />
-                          33 ABC Rd. Someplace. NB.
-                        </p>
-                        <button
-                          class="btn btn-sm bg-light border font-weight-bold rounded-0"
-                        >
-                          Change
-                        </button>
+                        <h3>Cart</h2>
                       </div>
                       <div
                         class="col-sm-6 mt-4 mt-sm-0 align-items-sm-end col-xl-6 delivery-order"
@@ -145,7 +154,7 @@
                           Order before 6:00 PM ET, receive by Tuesday December
                           22
                         </p>
-                        <p class="text-danger small">
+                        <p class="text-danger small mb-0">
                           Oops! Sorry! We’ve have to source your products from a
                           different distributor and there’s been an Increase in
                           cost for the products indicated below.
@@ -210,12 +219,79 @@
                           </div>
                           <div class="col">
                             <strong class="price">&dollar;283.80</strong>
+                            <strong class="font-weight-normal text-secondary"
+                              ><del>$180.00</del></strong
+                            >
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>  <div
+                class="row align-items-xl-center border-bottom py-3 py-md-5 bg-white"
+              >
+                <div class="col-sm-4 text-center col-xl-auto">
+                  <div class="border-item">
+                    <img src="images/kitkat.png" alt="" class="img-fluid" />
+                  </div>
                 </div>
+                <div class="col-sm-8 col-xl">
+                  <div class="row">
+                    <div class="col-sm col-xl-7">
+                      <h4>
+                        Kit Kat Mini, Dark Chocolate Flavour, 45g, Pack of 24
+                      </h4>
+                      <p>P #JVGYHC900STU • MFR #GY-HC900STU</p>
+
+                      <div class="col pl-md-0">
+                        <button class="btn btn-save-later rounded-0 mr-2">
+                          Save for Later
+                        </button>
+                        <button class="btn btn-save-later rounded-0">
+                          <img src="images/trash.png" alt="" /> Remove
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-xl cart-price-section">
+                      <div class="row px-3 mt-3">
+                        <div class="col pl-md-0">
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <button
+                                class="btn btn-outline-secondary"
+                                type="button"
+                              >
+                                -
+                              </button>
+                            </div>
+                            <input
+                              type="text"
+                              class="form-control text-center"
+                              placeholder="12"
+                              aria-label=""
+                              aria-describedby="basic-addon1"
+                            />
+                            <div class="input-group-append">
+                              <button
+                                class="btn btn-outline-secondary"
+                                type="button"
+                              >
+                                +
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <strong class="price">&dollar;283.80</strong>
+                          <strong class="font-weight-normal text-secondary"
+                            ><del>$180.00</del></strong
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
                 <div
                   class="row align-items-xl-center border-bottom py-3 py-md-5 bg-white"
                 >
@@ -271,7 +347,10 @@
                             </div>
                           </div>
                           <div class="col">
-                            <strong class="price">&dollar;283.80</strong>
+                            <strong class="price text-danger">&dollar;283.80</strong>
+                            <strong class="font-weight-normal text-secondary"
+                              ><del>$180.00</del></strong
+                            >
                           </div>
                         </div>
                       </div>
