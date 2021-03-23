@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <title>Payment</title>
+  </head>
+
+  <body>
+    <div class="container-fluid top-bar">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col px-2 px-md-0 d-flex align-items-center justify-content-between"
+          >
+            <div class="col-auto">
+              <select
+                class="form-control bg-transparent border-0 text-white"
+                id="exampleFormControlSelect1"
+              >
+                <option>English</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <h4><span> Free Shipping on your first two orders</span></h4>
+            <nav class="nav">
+              <a href="#" class="nav-link">Account</a>
+              <a href="#" class="nav-link">Logout</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid cart-wizard-header py-xl-3 px-xl-5">
+      <div class="container">
+        <div class="row justify-content-md-between align-items-md-center">
+          <div class="col-sm-3 col-xl-2 d-none d-sm-flex">
+            <img
+              src="images/paygos_full_colour_logo.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-12 order-2 order-sm-1 wizard-control">
+            <div class="row">
+              <div class="bg-line col-md-10 offset-md-1"></div>
+              <div class="col">
+                <div class="circle-blank">1</div>
+                <h4>Shipping</h4>
+              </div>
+              <div class="col">
+                <div class="circle-blank circle-fill">2</div>
+                <h4>Payment</h4>
+              </div>
+              <div class="col px-0">
+                <div class="circle-blank">3</div>
+                <h4>Review &amp; Submit</h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-10 offset-2 offset-sm-0 text-right col-sm-4 col-xl-auto order-1 order-sm-2 secure-checkout text-md-right"
+          >
+            <h3>
+              Secure Checkout
+              <img src="images/secure-checkout.png" class="img-fluid" alt="" />
+            </h3>
+            <img src="images/credit-cards.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-3 pb-md-5 border-top account-tabs">
+      <div class="container">
+        <div class="row">
+          <div class="col purchasing-cart">
+            <div class="row">
+              <div class="col-md-8 border-sm item-in-cart">
+                <div class="row">
+                  <div class="col-md-12 d-block d-sm-none mb-3">
+                    <button
+                      class="btn btn-sm bg-light border font-weight-bold rounded-0"
+                    >
+                      Back
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="paygos-join col-md-12">
+                    <div class="row">
+                      <div class="col-md-12 item-in-cart join-now">
+                        <div class="row">
+                            <div class="col-md-12"></div>
+                          <div
+                            class="col-sm-12 col-xl-9 wizard-shipping-address pb-3 pb-sm-5"
+                          >
+                            <div class="row">
+                                <div class="col-md-12 mb-3">   <p class="location">
+                                    <img src="images/mapPin_icon.svg" alt="" />
+                                    <span>
+                                      Corner Store Convenience, 33 ABC Rd. Someplace. NB.</span
+                                    >
+                                  </p></div>
+                              <div class="col">
+                                <h4>Add a Payment Method</h4>
+                                <img
+                                  src="images/credit-cards.png"
+                                  alt=""
+                                  class="mt-2 mb-3"
+                                />
+                              </div>
+                            </div>
+                            <form class="needs-validation" novalidate>
+                              <div class="row">
+                                <div class="col error-msg">
+                                  <p class="mb-0">Expiration month required</p>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col-md-9">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Card Number"
+                                    required
+                                  />
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col-md-3">
+                                  <select
+                                    id="selectMonth"
+                                    class="form-control"
+                                    required
+                                  >
+                                    <option selected>MM</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-3">
+                                  <select
+                                    id="selectYear"
+                                    class="form-control"
+                                    required
+                                  >
+                                    <option selected>YY</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-3">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    required
+                                    placeholder="CVV"
+                                  />
+                                </div>
+                              </div>
+
+                              <div class="form-row">
+                                <div class="col">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="First name"
+                                    required
+                                  />
+                                </div>
+                                <div class="col">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Last name"
+                                    required
+                                  />
+                                </div>
+                              </div>
+
+                              <div class="form-row">
+                                <div class="col">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Postal Code"
+                                    required
+                                  />
+                                </div>
+                                <div class="col">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Main Phone Number"
+                                    required
+                                  />
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div
+                            class="col-sm-12 col-xl-9 wizard-shipping-address"
+                          >
+                            <form class="needs-validation" novalidate>
+                              <div class="row">
+                                  <div class="col-md-12 mb-3">   
+                                    <div class="custom-control custom-checkbox">
+                                      <input
+                                        type="checkbox"
+                                        class="custom-control-input"
+                                        id="sameAddress"
+                                        required
+                                      />
+                                      <label
+                                        class="custom-control-label"
+                                        for="sameAddress"
+                                      >
+                                      Same as Shipping Address
+                                      </label>
+                                    </div>
+                                  </div>
+                                <div class="col">
+                                  <h4>Billing Address</h4>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col error-msg">
+                                  <p class="mb-0">Error - Incorrect City</p>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col-xl-12">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    id="inputEmail4"
+                                    required
+                                    placeholder="Enter new billing address"
+                                  />
+                                </div>
+                                <div class="col-xl-12">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputPassword4"
+                                    placeholder="Address Line 1"
+                                    required
+                                  />
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder="Address Line 2 - Unit#, Apt#, Suite# (Optional)"
+                                    required
+                                  />
+                                </div>
+                              </div>
+
+                              <div class="form-row">
+                                <div class="col-xl-6">
+                                  <input
+                                    type="text"
+                                    class="form-control error"
+                                    id="inputZip"
+                                    placeholder="TO"
+                                    required
+                                  />
+                                </div>
+                                <div class="col-xl-6">
+                                  <select
+                                    id="inputState"
+                                    class="form-control"
+                                    required
+                                  >
+                                    <option selected>Province</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="form-group col-xl-6">
+                                  <input
+                                    type="email"
+                                    class="form-control"
+                                    required
+                                    id="inputEmail4"
+                                    placeholder="Postal Code"
+                                  />
+                                </div>
+                                <div class="form-group col-xl-6">
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    required
+                                    id="inputPassword4"
+                                    placeholder="Phone Number"
+                                  />
+                                </div>
+                                <div class="form-group col-xl-12">
+                                  <div class="custom-control custom-checkbox">
+                                    <input
+                                      type="checkbox"
+                                      class="custom-control-input"
+                                      id="saveCard"
+                                      required
+                                    />
+                                    <label
+                                      class="custom-control-label"
+                                      for="saveCard"
+                                      >Save Credit Card
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="form-group col-xl-12">
+                                  <div class="custom-control custom-checkbox">
+                                    <input
+                                      type="checkbox"
+                                      class="custom-control-input"
+                                      id="setDefault"
+                                      required
+                                    />
+                                    <label
+                                      class="custom-control-label"
+                                      for="setDefault"
+                                    >
+                                      Save &amp; Set as Default Credit Card
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                  <button
+                                    class="btn btn-secondary px-3 py-md-2 px-md-4 rounded-0 mb-2 mb-md-0"
+                                  >
+                                    CANCEL
+                                  </button>
+                                  <button
+                                    type="submit"
+                                    class="btn bg-green px-3 py-md-2 px-md-4 rounded-0"
+                                  >
+                                  SAVE CHANGES
+                                  </button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid">
+      <a class="move-top d-none d-sm-block" href="#">
+        <img src="images/arrow-top.png" alt=""
+      /></a>
+      <div class="container">
+        <nav class="nav">
+          <a class="nav-link active" href="about.html">About</a>
+          <a class="nav-link" href="account-home.html"> Help</a>
+          <a class="nav-link" href="privacy.html"> Privacy</a>
+          <a class="nav-link border-right-0" href="terms.html"> Terms</a>
+        </nav>
+        <p>&copy; Paygos 2020</p>
+
+        <img src="images/chat_icon.png" alt="" class="chat-icon" />
+      </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/form-validation.js"></script>
+</html>
