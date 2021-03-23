@@ -397,7 +397,12 @@ header {
 
       del {
         color: $red;
+        font-size: 31px;
       }
+    }
+    .sale {
+      font-size: 31px;
+      color: $red;
     }
 
     .price-stock {

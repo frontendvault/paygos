@@ -1094,6 +1094,12 @@ header .delivery-status img {
 
 .cart-container .cart-section .price del {
   color: #DD2626CB;
+  font-size: 31px;
+}
+
+.cart-container .cart-section .sale {
+  font-size: 31px;
+  color: #DD2626CB;
 }
 
 .cart-container .cart-section .price-stock span {
