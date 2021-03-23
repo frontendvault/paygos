@@ -972,6 +972,12 @@ header .delivery-status img {
   font-size: 14px;
 }
 
+.category-shop .item-container .item .added-cart-items {
+  font-size: 17px;
+  font-weight: 700;
+  color: #6F6F6FCB;
+}
+
 .category-shop .marketplace-more h4 {
   color: #43ab6c;
   font-weight: 700;
