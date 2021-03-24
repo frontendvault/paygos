@@ -2536,7 +2536,6 @@ header .delivery-status img {
     background: transparent !important;
   }
   .mobile-categories {
-    text-align: center;
     margin-top: -20px;
   }
   .mobile-categories a {
@@ -2548,6 +2547,9 @@ header .delivery-status img {
   }
   .mobile-categories .active {
     color: #43ab6c;
+  }
+  .mobile-categories ul {
+    list-style: none;
   }
   .sppadding-top-mobile {
     padding-top: 30px !important;
