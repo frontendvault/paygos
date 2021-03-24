@@ -1940,6 +1940,9 @@ header .delivery-status img {
     width: 15px;
     height: 15px;
   }
+  .ipad-items .item-container {
+    width: 245px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
