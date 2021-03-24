@@ -1191,8 +1191,13 @@ header .delivery-status img {
   color: #43ab6c;
 }
 
+.market-filter .item-container {
+  width: 273px;
+  margin-bottom: 20px;
+}
+
 .market-filter .item-container .item {
-  max-width: 98%;
+  width: 100%;
 }
 
 .market-filter .serp-page .item-container .item {
@@ -1765,9 +1770,6 @@ header .delivery-status img {
     font-size: 36px;
     margin-bottom: 10px;
   }
-  .category-shop .item-container .item {
-    max-width: 131px;
-  }
   .category-shop .item-container .item .input-group {
     height: 28px;
   }
@@ -1941,20 +1943,14 @@ header .delivery-status img {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .category-shop .item-container .item {
-    max-width: 182px;
+  .category-shop .item-container {
+    width: 248px;
   }
-  .market-filter .serp-page .item-container .item {
-    max-width: 232px;
+  .category-shop .item-container .item {
+    max-width: 200px;
   }
   .slick-slider .slick-arrow {
     top: 52px;
-  }
-  .market-filter .item-container .item {
-    max-width: 121px;
-  }
-  .market-filter .item-container .item {
-    max-width: 170px;
   }
 }
 
@@ -2586,6 +2582,9 @@ header .delivery-status img {
   .purchasing-checkout-shipping .add-new-address .form-control {
     height: 45px;
     font-size: 14px;
+  }
+  .market-filter .item-container {
+    width: 50%;
   }
 }
 

@@ -1,33 +1,38 @@
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape) {
-    .category-shop {
-        .item-container {
-            .item {
-                max-width: 182px;
-            }
-        }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .category-shop {
+    .item-container {
+      width: 248px;
+      .item {
+        max-width: 200px;
+      }
     }
+  }
   .market-filter {
     .serp-page {
       .item-container {
-        .item { max-width: 232px;}
+        .item {
+          // max-width: 232px;
+        }
       }
     }
   }
 
-    .slick-slider {
-        .slick-arrow {
-            top: 52px;
-        }
-    }  .market-filter {
-    .item-container {
-      .item {
-        max-width: 121px;
-      }
+  .slick-slider {
+    .slick-arrow {
+      top: 52px;
     }
-  }  .market-filter {
+  }
+  // .market-filter {
+  //   .item-container {
+  //     .item {
+  //       max-width: 121px;
+  //     }
+  //   }
+  // }
+  .market-filter {
     .item-container {
       .item {
-        max-width: 170px;
+        // max-width: 170px;
       }
     }
   }
