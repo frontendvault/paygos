@@ -90,3 +90,29 @@
     padding-bottom: 40px;
   }
 }
+.add-payment-method {
+  h4 {
+    color: $green;
+    font-size: 30px;
+  }
+  .add-method {
+    font-size: 100px;
+    color: $green;
+    line-height: 100px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  h5 {
+    font-size: 24px;
+    color: $green;
+    font-weight: 700;
+  }
+  .btn-gray {
+    background-color: $fadeGrey;
+    font-size: 14px !important;
+    border: 1px solid $mediumGrey;
+    height: auto !important;
+    color: $black !important;
+  }
+}

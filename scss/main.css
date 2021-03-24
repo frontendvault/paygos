@@ -1659,6 +1659,35 @@ header .delivery-status img {
   padding-bottom: 40px;
 }
 
+.add-payment-method h4 {
+  color: #43ab6c;
+  font-size: 30px;
+}
+
+.add-payment-method .add-method {
+  font-size: 100px;
+  color: #43ab6c;
+  line-height: 100px;
+}
+
+.add-payment-method .add-method:hover {
+  text-decoration: none;
+}
+
+.add-payment-method h5 {
+  font-size: 24px;
+  color: #43ab6c;
+  font-weight: 700;
+}
+
+.add-payment-method .btn-gray {
+  background-color: #E8E8E84E;
+  font-size: 14px !important;
+  border: 1px solid #B7B7B7;
+  height: auto !important;
+  color: #000 !important;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .one-stop-shop h1 {
     font-size: 48px;
