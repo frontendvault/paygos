@@ -468,7 +468,7 @@
               >Store Information
             </a>
             <a
-              class="nav-link"
+              class="nav-link active"
               id="v-pills-settings-tab"
               data-toggle="pill"
               href="#v-pills-settings"
@@ -478,7 +478,7 @@
               >Shipping Addresses
             </a>
             <a
-              class="nav-link active border-0"
+              class="nav-link border-0"
               id="v-pills-payment-tab"
               data-toggle="pill"
               href="#v-pills-payment"
@@ -900,112 +900,75 @@
                 </div>
               </div>
             </div> -->
-            <!-- <div
-              class="tab-pane wizard-shipping-address fade"
+            <div
+              class="tab-pane wizard-shipping-address fade show active"
               id="v-pills-settings"
               role="tabpanel"
               aria-labelledby="v-pills-settings-tab"
             >
-              <div class="col-xl-9">
-                <div class="row paygos-join w-100">
+              <div class="col-xl-12">
+                <div class="row paygos-join w-100 add-payment-method">
                   <div class="col-xl-12 join-now mt-0">
                     <div class="row">
-                      <div class="col px-md-0">
+                      <div class="col px-md-0 pb-3 pb-md-5">
                         <h4 class="mb-3">Shipping Addresses</h4>
                       </div>
                     </div>
-                    <form class="needs-validation" novalidate>
-                      <div class="form-row">
-                        <div
-                          class="col p-md-0 mt-0 bg-transparent profile-page shipping-address"
-                        >
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Name"
-                            required
-                          />
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Address"
-                            required
-                          />
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="City"
-                            required
-                          />
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Postal Code"
-                            required
-                          />
-                        </div>
-                        <div class="col">
-                          <input
-                            type="text"
-                            class="form-control"
-                            required
-                            placeholder="Main Phone Number"
-                          />
-
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Suite/Unit/Facility Number"
-                            required
-                          />
-                          <select name="" id="" class="form-control" required>
-                            <option value="">Province</option>
-                          </select>
-
-                          <select name="" id="" class="form-control" required>
-                            <option value="">Country</option>
-                          </select>
-                        </div>
-                        <div class="col-md-12 px-md-0">
-                          <div class="custom-control custom-checkbox">
-                            <input
-                              type="checkbox"
-                              class="custom-control-input"
-                              id="customCheck1"
-                              required
-                            />
-                            <label
-                              class="custom-control-label"
-                              for="customCheck1"
-                              >Use as default shipping address</label
-                            >
-                          </div>
-                          <button class="btn text-uppercase mt-3 btn-green">
-                            Add Address
-                          </button>
-                        </div>
+                    <div class="row">
+                      <div class="col-sm-6 col-xl-4 border-right mb-4 mb-md-5">
+                        <p class="font-weight-bold text-dark">
+                          Corner Store Convenience (Default) 33 ABC Rd.
+                          Someplace. NB. (888) 888-8888
+                        </p>
+                        <button class="btn btn-gray rounded-0 mt-2 px-4">
+                          Delete
+                        </button>
+                        <button class="btn btn-gray rounded-0 mt-2 px-4">
+                          Delete
+                        </button>
                       </div>
-                    </form>
+                      <div class="col-sm-6 col-xl-4 border-right mb-4 mb-md-5">
+                        <p class="font-weight-bold text-dark">
+                          Corner Store Convenience (Default) 33 ABC Rd.
+                          Someplace. NB. (888) 888-8888
+                        </p>
+                        <button class="btn btn-gray rounded-0 mt-2 px-4">
+                          Edit
+                        </button>
+                        <button class="btn btn-gray rounded-0 mt-2 px-4">
+                          Delete
+                        </button>
+                        <button class="btn btn-gray rounded-0 mt-2 px-4">
+                          Set as Default
+                        </button>
+                      </div>
+                      <div class="col-sm-6 col-xl-4 text-center">
+                        <a href="" class="add-method"
+                          >+
+                          <h5>Add Address</h5></a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
 
             <!-- Add Payment method -->
             <div
-              class="tab-pane fade show active"
+              class="tab-pane fade"
               id="v-pills-payment"
               role="tabpanel"
               aria-labelledby="v-pills-payment-tab"
             >
               <div class="container-fluid pt-3 pb-md-5 add-payment-method">
                 <div class="container">
-                  <div class="row">
+                  <!-- <div class="row">
                     <div class="col-md-12 mb-4">
                       <h4>Payment Methods</h4>
                     </div>
-                  </div>
-                  <div class="row">
+                  </div> -->
+                  <!-- <div class="row">
                     <div class="col-sm-6 col-xl-4 border-right mb-4 mb-md-5">
                       <p>(Default)</p>
                       <div class="d-flex mb-3">
@@ -1031,7 +994,7 @@
                         <h5>Add Payment Method</h5></a
                       >
                     </div>
-                  </div>
+                  </div> -->
 
                   <!-- <div class="row">
                     <div class="col px-md-5">
