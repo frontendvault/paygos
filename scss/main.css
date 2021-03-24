@@ -1211,6 +1211,10 @@ header .delivery-status img {
   font-weight: 600;
 }
 
+.market-filter .carousel-items {
+  width: 100%;
+}
+
 .about-us h3 {
   color: #43ab6c;
   font-weight: 700;
