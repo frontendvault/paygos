@@ -805,13 +805,19 @@ header .delivery-status img {
 }
 
 .main-sliding-banner .carousel-item .banner-price div {
-  letter-spacing: -4px;
+  letter-spacing: -2px;
   line-height: 80px;
   margin-top: 28px;
 }
 
 .main-sliding-banner .carousel-item .banner-price div span {
   font-size: 130px;
+  float: left;
+}
+
+.main-sliding-banner .carousel-item .banner-price div sup {
+  float: left;
+  top: 20px;
 }
 
 .main-sliding-banner .carousel-item .banner-price p {
