@@ -161,8 +161,12 @@
         font-size: 40px;
 
         div {
+          letter-spacing: 0;
           span {
             font-size: 65px;
+          }
+          sup {
+            top: 30px;
           }
         }
       }

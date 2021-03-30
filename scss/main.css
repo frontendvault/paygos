@@ -1815,8 +1815,14 @@ header .delivery-status img {
     height: 150px;
     font-size: 40px;
   }
+  .main-sliding-banner .carousel-item .banner-price div {
+    letter-spacing: 0;
+  }
   .main-sliding-banner .carousel-item .banner-price div span {
     font-size: 65px;
+  }
+  .main-sliding-banner .carousel-item .banner-price div sup {
+    top: 30px;
   }
   .slick-slider .slick-arrow {
     top: 40px;
