@@ -559,6 +559,9 @@ footer .container .chat-icon {
   position: absolute;
   right: 10px;
   cursor: pointer;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 footer .move-top {
@@ -737,7 +740,7 @@ header .delivery-status {
 }
 
 header .delivery-status img {
-  width: 40px;
+  width: 30px;
 }
 
 .map-location {
@@ -2177,6 +2180,23 @@ header .delivery-status img {
   }
   footer .container .nav {
     margin-bottom: 20px;
+  }
+  footer .chat-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .chat-icon img {
+    width: 30px;
   }
   .main-sliding-banner {
     background: #f7f7f7;
